@@ -1,5 +1,5 @@
 ---
-title: "Project: Mount Alvernia Hospital Information System"
+title: "Data Augmentation for X-Ray Screening Images"
 last_modified_at: 2021-08-18T04:35:02-05:00
 company: Project
 datetime: 2021-08-18T04:35:02-05:00

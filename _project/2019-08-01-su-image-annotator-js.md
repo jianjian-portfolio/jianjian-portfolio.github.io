@@ -1,5 +1,5 @@
 ---
-title: "Project: ImageAnnotatorJS"
+title: "ImageAnnotatorJS"
 last_modified_at: 2021-08-18T04:37:02-05:00
 company: Project
 datetime: 2021-08-18T04:37:02-05:00
