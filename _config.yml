@@ -137,6 +137,3 @@ collections:
   project:
     output: true
     permalink: /:collection/:path/
-    order:
-      - bvi-project.md
-      - sata-project.md
