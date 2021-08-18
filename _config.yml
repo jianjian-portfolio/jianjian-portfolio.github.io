@@ -59,7 +59,7 @@ plugins:
 author:
   name   : "Jian Jian"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Data Scientist at IPwe &#124; Senior Java Software Engineer &vert; Research & Teaching Assistant"
+  bio    : "Data Scientist at IPwe<br>Senior Java Software Engineer<br>Research & Teaching Assistant"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -75,6 +75,9 @@ author:
       url: "https://www.linkedin.com/in/ken-j/"
     - label: "jjian03@syr.edu"
       icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:jjian03@syr.edu"
+    - label: "+1 (315) 802 9717"
+      icon: "fas fa-fw fa-mobile"
       url: "#"
 
 footer:
