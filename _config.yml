@@ -63,11 +63,13 @@ author:
   links:
     - label: "Syracuse, NY, USA"
       icon: "fas fa-fw fa-map-marker-alt"
+      url: ""
     - label: "jjian03@syr.edu"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:jjian03@syr.edu"
     - label: "+1 (315) 802 9717"
       icon: "fas fa-fw fa-mobile"
+      url: ""
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://jianjian-portfolio.github.io/about/"
