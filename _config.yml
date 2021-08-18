@@ -58,7 +58,7 @@ plugins:
 
 author:
   name   : "Jian Jian"
-  avatar : "/assets/images/bio-photo.png"
+  avatar : "/assets/images/bio-photo.jpg"
   bio    : "Data Scientist at IPwe \| Senior Java Software Engineer | Research & Teaching Assistant"
   links:
     - label: "Website"
