@@ -12,4 +12,6 @@ ImageAnnotatorJS is a JavaScript library that helps the frontend engineer to dev
 
 One can use it for annotating the shapes onto the HTML5 canvas.
 
-Github: https://github.com/sciosci/ImageAnnotatorJS
+Github: [https://github.com/sciosci/ImageAnnotatorJS][github]
+
+[github]: https://github.com/sciosci/ImageAnnotatorJS
