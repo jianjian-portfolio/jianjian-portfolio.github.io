@@ -6,7 +6,7 @@ datetime: 2021-08-18T04:37:02-05:00
 order: 16
 ---
 
-This project has been partially funded by the Office of Research Integrity, Department of Health and Human Services, under grants ORIIIR190049 and ORIIR180041
+This project has been partially funded by the Office of Research Integrity, Department of Health and Human Services of the United States, under grants ORIIIR190049 and ORIIR180041
 
 ImageAnnotatorJS is a JavaScript library that helps the frontend engineer to develop an annotating system.
 
