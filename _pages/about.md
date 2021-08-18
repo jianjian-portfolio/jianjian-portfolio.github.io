@@ -3,6 +3,10 @@ permalink: /about/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+Welcome to my portfolio website. I am Jian Jian. I just finished my master's degree in Applied Data Science at Syracuse University. Before I came to my school, I was a Senior Java Software Engineer with 12 years of experience in e-commerce, health care, web portal, as well as in the offshore finance sector. I also have many practices in microservice architecture design and agile development. To promote my career to the next level, I started my plan for my continuing education 3 years ago. 
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+For the past few months, I was working on my internship in a company as a data scientist to help the customer to minging values from their intellectual properties. On the other hand, I also worked in a research lab to experiment with a variety of machine learning methods. I have a paper under preparation. And it is expected to be published around this summer. 
+
+Since I have many years of backend Java engineering experience. I am proficient in Java. In the previous project, I successfully integrated the Spring Boot with the middleware component to build a distributed system. 
+
+My research interest is on machine learning methods and artificial neural networks.

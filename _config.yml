@@ -59,7 +59,7 @@ plugins:
 author:
   name   : "Jian Jian"
   avatar : "/assets/images/bio-photo.png"
-  bio    : "Data Scientist at IPwe | Senior Java Software Engineer | Research & Teaching Assistant"
+  bio    : "Data Scientist at IPwe \| Senior Java Software Engineer | Research & Teaching Assistant"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
