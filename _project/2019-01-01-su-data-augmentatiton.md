@@ -11,4 +11,9 @@ The objective of this experiment is to augmenting data to increase the robustnes
 ![alt]({{ site.url }}{{ site.baseurl }}/assets/images/gan.jpeg)
 {: .full}
 
-Firstly, I experimented on two different network architectures with extensive hyperparameter tuning. Secondly, by appending a Sobel filter, I advanced the network to capture features of the image. Also, I conducted the NHST to analyze the performance of the network. To cope with the limitation of the GPU capacity restriction of Google Colab, I enhanced the program with Tensorflow checkpoint functionality to improve the training process in an interruptible manner. Eventually, the optimized network can provide mock X-Ray images to offer augmented data for medical researching purposes.
+Firstly, I experimented on two different network architectures with extensive hyperparameter tuning. Secondly, by appending a Sobel filter, I advanced the network to capture features of the image. Also, I conducted the NHST to analyze the performance of the network. 
+
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/dcgan.gif)
+{: .full}
+
+To cope with the limitation of the GPU capacity restriction of Google Colab, I enhanced the program with Tensorflow checkpoint functionality to improve the training process in an interruptible manner. Eventually, the optimized network can provide mock X-Ray images to offer augmented data for medical researching purposes.
