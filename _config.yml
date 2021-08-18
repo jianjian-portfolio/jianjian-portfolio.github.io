@@ -134,6 +134,6 @@ tag_archive:
   path: /tags/
 
 collections:
-  portfolio:
+  portfolios:
     output: true
     permalink: /:collection/:path/
