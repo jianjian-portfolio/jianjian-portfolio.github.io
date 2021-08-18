@@ -61,6 +61,12 @@ author:
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Data Scientist at IPwe<br>Senior Java Software Engineer<br>Research & Teaching Assistant"
   links:
+    - label: "jjian03@syr.edu"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:jjian03@syr.edu"
+    - label: "+1 (315) 802 9717"
+      icon: "fas fa-fw fa-mobile"
+      url: "#"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://jianjian-portfolio.github.io/about/"
@@ -73,12 +79,6 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin-in"
       url: "https://www.linkedin.com/in/ken-j/"
-    - label: "jjian03@syr.edu"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:jjian03@syr.edu"
-    - label: "+1 (315) 802 9717"
-      icon: "fas fa-fw fa-mobile"
-      url: "#"
 
 footer:
   links:
