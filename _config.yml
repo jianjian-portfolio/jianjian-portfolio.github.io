@@ -137,5 +137,6 @@ collections:
   project:
     output: true
     permalink: /:collection/:path/
-    sort_by: number
-    sort_order: reverse
+entries_layout: list
+sort_by: number
+sort_order: reverse
