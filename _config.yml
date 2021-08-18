@@ -68,7 +68,7 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/{{ site.github_username }}"
     - label: "Lab"
-      icon: "fab fa-fw fa-flask"
+      icon: "fas fa-fw fa-flask"
       url: "https://scienceofscience.org/people/"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
@@ -89,7 +89,7 @@ footer:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/ken-j/"
     - label: "Lab"
-      icon: "fab fa-fw fa-flask"
+      icon: "fas fa-fw fa-flask"
       url: "https://scienceofscience.org/people/"
 
 defaults:
