@@ -73,7 +73,7 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/ken-j/"
-    - label: "{{ site.email }}"
+    - label: ":email"
       icon: "fab fa-fw fa-envlope"
       url: "#"
 
