@@ -72,10 +72,10 @@ author:
       icon: "fas fa-fw fa-flask"
       url: "https://scienceofscience.org/people/"
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
+      icon: "fab fa-fw fa-linkedin-in"
       url: "https://www.linkedin.com/in/ken-j/"
     - label: "jjian03@syr.edu"
-      icon: "fab fa-fw fa-envlope"
+      icon: "fas fa-fw fa-envelope-square"
       url: "#"
 
 footer:
