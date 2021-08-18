@@ -117,10 +117,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _portfolio
+  # _project
   - scope:
-      path: "_portfolio"
-      type: portfolio
+      path: "_project"
+      type: project
     values:
       layout: single
       author_profile: false
@@ -134,6 +134,6 @@ tag_archive:
   path: /tags/
 
 collections:
-  portfolio:
+  project:
     output: true
     permalink: /:collection/:path/
