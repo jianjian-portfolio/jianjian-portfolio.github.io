@@ -69,7 +69,7 @@ author:
       url: "mailto:jjian03@syr.edu"
     - label: "+1 (315) 802 9717"
       icon: "fas fa-fw fa-mobile"
-      url: ""
+      url: "tel:+13158029717"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://jianjian-portfolio.github.io/about/"
