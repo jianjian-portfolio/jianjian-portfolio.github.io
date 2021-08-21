@@ -16,12 +16,14 @@
 title: Biography of Jian Jian (建健)
 email: jjian03@syr.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  This website is Jian Jian' portfolio.
+  Jian Jian previously was a Senior Java Software Engineer.
+  He is also a Data Science professional.
 github_username: UKGANG
 minimal_mistakes_skin: default
 search: true
+header:
+  teaser: "assets/images/bio-photo.jpg"
 
 analytics:
   provider: "google-gtag"
