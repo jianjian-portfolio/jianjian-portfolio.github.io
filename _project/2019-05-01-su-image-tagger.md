@@ -8,9 +8,9 @@ order: 14
 
 This application is a web application and service. 
 
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/pdf_image_annotator_1.jpg){: .align-center}
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/projects/pdf_image_annotator_1.jpg){: .align-center}
 
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/pdf_image_annotator_2.jpg){: .align-center}
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/projects/pdf_image_annotator_2.jpg){: .align-center}
 
 It offers the service of analyzing and storing the images in a given PDF file. One can use its annotation feature to make notes on the parsed images. There are more APIs available in the backend. 
 
