@@ -6,6 +6,6 @@ collection: project
 entries_layout: grid
 classes: wide
 entries_layout: list
-sort_by: order
+sort_by: datetime
 sort_order: reverse
 ---
