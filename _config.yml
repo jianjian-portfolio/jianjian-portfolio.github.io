@@ -65,7 +65,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Jian Jian"
+  name   : "Jian Jian (Ken)"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Data Scientist at IPwe<br>Senior Java Software Engineer<br>Research & Teaching Assistant"
   links:
