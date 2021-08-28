@@ -3,6 +3,10 @@ title: "Certificate"
 permalink: /certificate/
 ---
 
+{% include gallery caption="This is a sample gallery with **Markdown support**." %
+
+
+
 {% include figure image_path="/assets/images/certificates/Coursera WR4TAH5S5XZV.jpg" alt="" %}
 
 {% include figure image_path="/assets/images/certificates/CertificateOfCompletion_C Essential Training 2018.jpg" alt="" %}

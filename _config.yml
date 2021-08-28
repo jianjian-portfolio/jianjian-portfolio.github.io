@@ -153,3 +153,11 @@ collections:
   project:
     output: true
     permalink: /:collection/:path/
+
+gallery:
+  - image_path: /assets/images/certificates/Coursera WR4TAH5S5XZV.jpg
+    alt: "placeholder image 1"
+    title: "Image 1 title caption"
+  - image_path: /assets/images/certificates/Coursera WR4TAH5S5XZV.jpg
+    alt: "placeholder image 1"
+    title: "Image 1 title caption"
