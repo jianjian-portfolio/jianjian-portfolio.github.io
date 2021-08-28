@@ -3,7 +3,6 @@ title: "Covid-19 Chatbot"
 last_modified_at: 2021-08-18T04:32:02-05:00
 company: Project
 datetime: 2021-08-18T04:32:02-05:00
-order: 12
 ---
 
 This chatbot is designed to offer the latest updates to the general public. I led a team of 4 to develop the NLP model for this application.  

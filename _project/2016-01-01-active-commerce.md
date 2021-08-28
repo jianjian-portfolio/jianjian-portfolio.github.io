@@ -3,7 +3,6 @@ title: "eCommerce Service Platform"
 last_modified_at: 2021-08-18T04:24:02-05:00
 company: Project
 datetime: 2021-08-18T04:24:02-05:00
-order: 8
 ---
 
 This e-commerce project integrates the merchant API to offer the quotation and ordering service to the other applications.  

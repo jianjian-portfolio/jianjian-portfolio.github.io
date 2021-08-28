@@ -3,7 +3,6 @@ title: "WeChat micro App"
 last_modified_at: 2021-08-18T04:30:02-05:00
 company: Project
 datetime: 2021-08-18T04:30:02-05:00
-order: 10
 ---
 
 It is a POC(Proof of Concept) project whose customer is China Huaneng Shanxi Qingling Power Generation. 

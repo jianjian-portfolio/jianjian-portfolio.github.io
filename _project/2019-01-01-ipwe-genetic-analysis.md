@@ -3,7 +3,6 @@ title: "Genetic Information Analysis"
 last_modified_at: 2021-08-18T04:31:02-05:00
 company: Project
 datetime: 2021-08-18T04:31:02-05:00
-order: 11
 ---
 
 This is a PoC (Proof of Concept) project for a knowledge graph system that aims to analyze and extract genetic information from unstructured text files. 

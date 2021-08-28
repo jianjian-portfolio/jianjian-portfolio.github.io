@@ -3,7 +3,6 @@ title: "Data Augmentation for X-Ray Screening Images"
 last_modified_at: 2021-08-18T04:35:02-05:00
 company: Project
 datetime: 2021-08-18T04:35:02-05:00
-order: 13
 ---
 
 The objective of this experiment is to augmenting data to increase the robustness of the AI model. I am responsible for devising the architecture of the generative adversarial network (Gan), designing the step for the experiment, as well as analyzing the performance of the model. 

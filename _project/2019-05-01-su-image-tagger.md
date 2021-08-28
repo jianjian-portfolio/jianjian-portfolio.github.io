@@ -3,8 +3,6 @@ title: "Tampered Image Tagging System"
 last_modified_at: 2021-08-18T04:36:02-05:00
 company: Project
 datetime: 2021-08-18T04:36:02-05:00
-order: 14
-display: grid
 ---
 
 This application is a web application and service. 

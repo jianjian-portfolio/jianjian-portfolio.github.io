@@ -3,7 +3,6 @@ title: "Foundation Email& File Storage Service"
 last_modified_at: 2021-08-18T04:27:02-05:00
 company: Project
 datetime: 2021-08-18T04:27:02-05:00
-order: 9
 ---
 
 This project is the infrastructure of the enterprise. It organizes the file storage and emails delivery service for other applications.  
