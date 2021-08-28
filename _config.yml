@@ -23,7 +23,7 @@ github_username: UKGANG
 minimal_mistakes_skin: default
 search: true
 header:
-  teaser: "assets/images/bio-photo.jpg"
+  teaser: "/assets/images/bio-photo.jpg"
 
 analytics:
   provider: "google-gtag"
