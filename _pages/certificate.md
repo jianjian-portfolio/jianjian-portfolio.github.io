@@ -1,18 +1,7 @@
 ---
 title: "Certificate"
 permalink: /certificate/
-gallery:
-  - url: /assets/images/certificates/GDPR.jpg
-    image_path: /assets/images/certificates/GDPR.jpg
-    alt: "placeholder image 1"
-    title: "Image 1 title caption"
-  - url: /assets/images/certificates/GDPR.jpg
-    image_path: /assets/images/certificates/GDPR.jpg
-    alt: "placeholder image 1"
-    title: "Image 1 title caption"
 ---
-
-{% include gallery id="gallery" caption="This is a sample gallery with **Markdown support**." %}
 
 {% include figure image_path="/assets/images/certificates/Jian Jian_eDiploma.jpg" alt="" %}
 
