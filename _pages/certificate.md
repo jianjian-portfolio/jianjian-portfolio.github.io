@@ -3,9 +3,7 @@ title: "Certificate"
 permalink: /certificate/
 ---
 
-{% include _includes/gallery id="gallery" caption="This is a sample gallery with **Markdown support**." %}
-
-???
+{% include gallery id="gallery" caption="This is a sample gallery with **Markdown support**." %}
 
 {% include figure image_path="/assets/images/certificates/Jian Jian_eDiploma.jpg" alt="" %}
 
