@@ -3,7 +3,7 @@ title: "Certificate"
 permalink: /certificate/
 ---
 
-{% include group-by-array.html collection=site.posts field='tags' %}
+{% include group-by-array.html collection=site.gallery field='tags' %}
 
 <ul>
   {% for tag in group_names %}
