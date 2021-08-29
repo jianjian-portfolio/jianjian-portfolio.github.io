@@ -3,7 +3,7 @@ title: "Certificate"
 permalink: /certificate/
 ---
 
-{% include gallery id="gallery" caption="This is a sample gallery with **Markdown support**." %}
+{% include _includes/gallery id="gallery" caption="This is a sample gallery with **Markdown support**." %}
 
 [comment]: <> ({{ site.gallery.length}})
 
