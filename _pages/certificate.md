@@ -6,6 +6,7 @@ permalink: /certificate/
 {% include gallery id="gallery" caption="This is a sample gallery with **Markdown support**." %}
 
 {{ site.gallery}}
+???
 
 {% include figure image_path="/assets/images/certificates/Jian Jian_eDiploma.jpg" alt="" %}
 
