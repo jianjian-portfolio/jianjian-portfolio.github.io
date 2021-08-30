@@ -5,7 +5,7 @@ company: Project
 datetime: 2021-08-18T04:36:02-05:00
 ---
 
-This application is a web application and service. 
+This application provides a user interface and web service to the researchers and other applications in the SOS+CD lab. 
 
 ![alt]({{ site.url }}{{ site.baseurl }}/assets/images/projects/pdf_image_annotator_1.jpg){: .align-center}
 
