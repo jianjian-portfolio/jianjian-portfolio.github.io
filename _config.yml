@@ -125,22 +125,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _certificate
-  - scope:
-      path: "_certificate"
-      type: certificate
-    values:
-      layout: single
-      author_profile: true
-      share: true
-  # _project
-  - scope:
-      path: "_project"
-      type: project
-    values:
-      layout: single
-      author_profile: true
-      share: true
 
 category_archive:
   type: liquid
