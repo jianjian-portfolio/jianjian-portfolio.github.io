@@ -1,8 +1,8 @@
 ---
-title: "Project"
+title: Leadership
 layout: collection
-permalink: /project/
-collection: project
+permalink: /leadership/
+collection: leadership
 entries_layout: grid
 classes: wide
 entries_layout: list

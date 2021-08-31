@@ -153,4 +153,3 @@ collections:
   project:
     output: true
     permalink: /:collection/:path/
-
