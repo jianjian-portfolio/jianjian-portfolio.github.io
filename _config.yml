@@ -125,14 +125,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _leadership
-  - scope:
-      path: "_leadership"
-      type: leadership
-    values:
-      layout: single
-      author_profile: true
-      share: true
   # _certificate
   - scope:
       path: "_certificate"
