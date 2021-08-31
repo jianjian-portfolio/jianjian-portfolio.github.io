@@ -5,7 +5,7 @@ main:
 #    url: /categories/
 #  - title: "Tags"
 #    url: /tags/
-  - title: "Certificatessss"
+  - title: "Certificates"
     url: /certificate/
   - title: "Projects"
     url: /project/
