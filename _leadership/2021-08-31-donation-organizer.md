@@ -1,7 +1,7 @@
 ---
 title: "Donation organizer at NCS Group"
-last_modified_at: 2021-08-31T02:51:02-05:00
-datetime: 2021-08-31T02:51:02-05:00
+last_modified_at: 2021-08-31T16:11:02-05:00
+datetime: 2021-08-31T16:11:02-05:00
 ---
 
 I had initiated and organized a donation event when I was on a long-term business trip to Singapore.
