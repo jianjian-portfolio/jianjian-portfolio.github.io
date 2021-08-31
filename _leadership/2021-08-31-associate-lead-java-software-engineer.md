@@ -1,12 +1,7 @@
 ---
 title: "Associate Lead JAVA Software Engineer at NEC corporation"
 last_modified_at: 2021-08-31T00:51:02-05:00
-categories:
-  - Leadership
-tags:
-  - leadership
-  - Java
-  - NEC
+datetime: 2021-08-31T00:51:02-05:00
 ---
 
 I was honored to leading and mentoring the contract engineers on-site at NEC corporation(China). I led a group of 10 members in Beijing and Shanghai to provide production support. 
