@@ -153,3 +153,6 @@ collections:
   project:
     output: true
     permalink: /:collection/:path/
+  leadership:
+    output: true
+    permalink: /:collection/:path/
