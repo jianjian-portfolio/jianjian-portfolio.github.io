@@ -1,5 +1,5 @@
 ---
-title: "Certificate"
+title: "Certificatesss"
 permalink: /certificate/
 ---
 
