@@ -16,4 +16,4 @@ Firstly, I scheduled a weekly meeting to be the first work of this project. In t
 
 We used Microsoft Teams to collaborate remotely during the pandemic. To collaborate with the subject experts, I suggested the team to consulting her for feedback before the next developing cycle. Also, I conducted one-on-one mentoring to the members on the way to research efficiently. Later, I integrated the work to deliver a quality product. 
 
-This project bridged the gap between the field of engineering and that in data science. It helped the company to clear the path of development for the next step.
+This project bridged the gap between the field of engineering and data science. It helped the company to clear the path of development for the next step.
