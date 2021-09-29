@@ -67,9 +67,9 @@ plugins:
 author:
   name   : "Jian Jian (Ken)"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Data Scientist at IPwe<br>Senior Java Software Engineer<br>Research & Teaching Assistant"
+  bio    : "Senior ML Engineer at Deepcell<br>Data Scientist<br>Senior Java Software Engineer<br>Research & Teaching Assistant"
   links:
-    - label: "Syracuse, NY, United State"
+    - label: "Silicon Valley, CA, United State"
       icon: "fas fa-fw fa-map-marker-alt"
       url: "https://www.google.com/maps/place/Syracuse+University+iSchool,+343,+Hinds+Hall,+Syracuse,+NY+13210%E7%BE%8E%E5%9B%BD/@43.038102,-76.1354139,17.51z/data=!4m8!1m2!2m1!1sgoogle+map+hyperlink+coordination!3m4!1s0x89d9f39fca155555:0xc1c69e4f641652c1!8m2!3d43.0382187!4d-76.1333764"
     - label: "jjian03@syr.edu"
@@ -89,7 +89,7 @@ author:
       url: "https://scienceofscience.org/people/"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin-in"
-      url: "https://www.linkedin.com/in/ken-j/"
+      url: "https://www.linkedin.com/in/jian-jian/"
 
 footer:
   links:
@@ -101,7 +101,7 @@ footer:
       url: "https://github.com/UKGANG"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/ken-j/"
+      url: "https://www.linkedin.com/in/jian-jian/"
     - label: "Lab"
       icon: "fas fa-fw fa-flask"
       url: "https://scienceofscience.org/people/"
