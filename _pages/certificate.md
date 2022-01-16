@@ -5,6 +5,8 @@ permalink: /certificate/
 
 {% include figure image_path="/assets/images/certificates/Jian Jian_eDiploma.jpg" alt="" %}
 
+{% include figure image_path="/assets/images/certificates/LinuxFoundationX LFS158x Certificate _ edX.jpg" alt="" %}
+
 {% include figure image_path="/assets/images/certificates/Coursera WR4TAH5S5XZV.jpg" alt="" %}
 
 {% include figure image_path="/assets/images/certificates/CertificateOfCompletion_C Essential Training 2018.jpg" alt="" %}
