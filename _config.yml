@@ -71,7 +71,7 @@ author:
   links:
     - label: "Silicon Valley, CA, United State"
       icon: "fas fa-fw fa-map-marker-alt"
-      url: "https://www.google.com/maps/place/Silicon+Valley,+CA/@37.402473,-122.3212843,10z/data=!3m1!4b1!4m5!3m4!1s0x808fb68ad0cfc739:0x7eb356b66bd4b50e!8m2!3d37.387474!4d-122.0575434"
+      url: "https://www.bing.com/maps?osid=9a0b7469-cce4-4819-a1f8-391d924bffc2&cp=37.370817~-122.047876&lvl=15&v=2&sV=2&form=S00027"
     - label: "jjian03@syr.edu"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:jjian03@syr.edu"
