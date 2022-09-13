@@ -7,6 +7,8 @@ permalink: /certificate/
 
 {% include figure image_path="/assets/images/certificates/Coursera WR4TAH5S5XZV.jpg" alt="" %}
 
+{% include figure image_path="/assets/images/certificates/Coursera Optimize TensorFlow Models For Deployment with TensorRT.jpg" alt="" %}
+
 {% include figure image_path="/assets/images/certificates/LinuxFoundationX_LFS158x_Certificate_edX.jpg" alt="" %}
 
 {% include figure image_path="/assets/images/certificates/CertificateOfCompletion_C Essential Training 2018.jpg" alt="" %}

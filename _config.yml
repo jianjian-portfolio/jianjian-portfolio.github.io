@@ -67,11 +67,14 @@ plugins:
 author:
   name   : "Jian Jian (Ken)"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Senior ML Engineer at Deepcell<br>Data Scientist<br>Senior Java Software Engineer<br>Research & Teaching Assistant"
+  bio    : "Senior ML Engineer at Deepcell"
   links:
     - label: "Silicon Valley, CA, United State"
       icon: "fas fa-fw fa-map-marker-alt"
       url: "https://www.bing.com/maps?osid=9a0b7469-cce4-4819-a1f8-391d924bffc2&cp=37.370817~-122.047876&lvl=15&v=2&sV=2&form=S00027"
+    - label: "Resume"
+      icon: "fas fa-fw fa-user"
+      url: "/assets/resume/Resume - Jian (Ken) J. .pdf"
     - label: "jjian03@syr.edu"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:jjian03@syr.edu"
