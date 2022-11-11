@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Biography of Jian Jian (建健)
-email: jjian03@syr.edu
+email: ukgang.ukgang@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   This website is Jian Jian' portfolio.
   Jian Jian previously was a Senior Java Software Engineer.
@@ -75,9 +75,9 @@ author:
     - label: "Resume"
       icon: "fas fa-fw fa-user"
       url: "/assets/resume/Resume - Jian (Ken) J. .pdf"
-    - label: "jjian03@syr.edu"
+    - label: "ukgang.ukgang@gmail.com"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:jjian03@syr.edu"
+      url: "mailto:ukgang.ukgang@gmail.com"
     - label: "+1 (315) 802 9717"
       icon: "fas fa-fw fa-mobile"
       url: "tel:+13158029717"
