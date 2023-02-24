@@ -3,21 +3,21 @@ permalink: /about/
 title: "About"
 ---
 
-Welcome to my portfolio website. I am Jian Jian, a machine learning and deep learning scientist at Deepcell. As a specialist in artificial intelligence, I am adept in advanced artificial intelligence, such as big data, deep learning, computer vision, NLP, regression analysis, and predictive modeling. In my past projects, I reconciled machine learning and deep learning methods with software engineering, which empowered life sciences, intellectual property management, medical research, social information science, and other industries. Along with their vision, I helped my client invent A.I. algorithms to turn their imaginations into applications. 
+Welcome to my portfolio website! I am Jian Jian, a machine learning and deep learning generalist at Deepcell. As an artificial intelligence specialist, I am experienced in working with big data, deep learning, computer vision, NLP, regression analysis, and predictive modeling. In my past projects, I have applied machine learning and deep learning techniques to various fields, including life sciences, intellectual property management, medical research, and social information science, helping clients to turn their ideas into reality. 
 
-My career started 14 years ago. I got my bachelor’s degree in economics in 2008. Since I learned Java myself at school, I chose to be a software engineer after my graduation. The growing industry offered me the opportunities to apply machine learning methods in my past projects. During that period, I developed my unique way to familiarize myself with this fast-growing industry. To systematically understand how artificial intelligence works, I joined a highly selected research lab at Syracuse University. When preparing my machine learning paper in the research lab, I obtained my master's degree in data science during that period. As a life learner, I put my decades of savings into my master's studies in data science to fulfill my curiosity. 
+My career began 14 years ago when I obtained my bachelor's degree in economics. Since then, I have worked as a Java software engineer, and I have been fortunate enough to explore the field of machine learning. To deepen my understanding of this rapidly evolving field, I joined a selective research lab at <a href="https://scienceofscience.org/people/">SOS+CD Laboratory</a> and earned my master's degree in data science. As a lifelong learner, I invested heavily in my education to satisfy my curiosity. 
 
-My research interest is 'science of science'. This track combines deep learning with machine learning methods to explain phenomenons during the research. The work included building a search engine to help other researchers to find correlated papers, inventing open-source software to help the other scientists to spin up their works, detecting tampered images in a research paper, which is a critical topic of research integrity, etc.  
+My research interests lie in the intersection of deep learning and machine learning methods. I have developed a range of tools to help researchers discover correlations between papers, create open-source software to facilitate research, and detect tampered images in research papers, which is an essential topic in research integrity.  
 
 ![alt]({{ site.url }}{{ site.baseurl }}/assets/images/about/wower.png){: .align-center}
 
-Besides the role I play in the real world. I was a WOWer for more than 7 years. I feel it is a kind of pre-metaverse before we officially bring the metaverse into a definition. As a human protection paladin, I led a guild of 50 active members on holding events. I had quit that game for almost 8 years already. But I still fight FOR THE ALLIANCE! 
+In addition to my real-world responsibilities, I spent over seven years immersed in the MMORPG game - World of Warcraft (WoW). To me, it felt like a precursor to the metaverse, a world that has since come to be recognized as a distinct concept. In WoW, I played as a human protection paladin, leading a guild of 50 active members and organizing various events. Although it's been almost ten years since I left the game, I continue to cherish the memories I gained during my time in Azeroth. And I still fight FOR THE ALLIANCE!  
 
 ![alt]({{ site.url }}{{ site.baseurl }}/assets/images/about/badminton.jpg){: .align-center}
 
-Also, I started to play badminton when I was 3. I haven't played it for almost 2 years since the pandemic. I wish everything goes better this year.
+I started playing badminton when I was three years old. Due to the pandemic, I have not played for almost three years, but I hope to resume playing this year.
 
-Feel free to explore other pages, welcome! 
+Feel free to explore other pages on my website. Thank you for visiting!
 
 [:pushpin: Leadership]({% link _pages/leadership.md %})
 
