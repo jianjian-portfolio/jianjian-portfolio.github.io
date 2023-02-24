@@ -5,12 +5,11 @@ company: Project
 datetime: 2021-08-18T04:36:02-05:00
 ---
 
-This application provides a user interface and web service to the researchers and other applications in the SOS+CD lab. 
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/projects/pdf_image_annotator_1.jpg){: style="height: 200px; float: left"}
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/projects/pdf_image_annotator_2.jpg){: style="height: 200px; float: left"}
 
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/projects/pdf_image_annotator_1.jpg){: .align-center}
+<p style="text-align: center; font-size: 16px"><i>Screenshots of the tagging system</i></p>
 
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/projects/pdf_image_annotator_2.jpg){: .align-center}
+The SOS+CD lab's image analysis application provides a user-friendly interface and web service for researchers and other applications. The application allows users to analyze and store images from a PDF file, as well as annotate these images using the application's annotation feature. Additionally, the application offers multiple APIs in the backend for more advanced image processing and analysis.
 
-It offers the service of analyzing and storing the images in a given PDF file. One can use its annotation feature to make notes on the parsed images. There are more APIs available in the backend. 
-
-
+Through the use of machine learning algorithms, the application provides a high degree of accuracy in image recognition and annotation, allowing researchers to easily and efficiently parse large quantities of image data. The application's user interface is designed to be intuitive and user-friendly, with an emphasis on ease of use and efficiency. With its powerful image analysis capabilities and flexible APIs, the SOS+CD lab's image analysis application is an invaluable tool for researchers and developers working with image data.

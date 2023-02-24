@@ -5,11 +5,5 @@ company: Project
 datetime: 2021-08-18T03:34:02-05:00
 ---
 
-I was working as an IT specialist to maintain the business OA system in the insurance company. 
-
-I was responsible for: 
-
-1. Fixing the frontend bug using the programming language JavaScript. 
-2. Deploying new server stations to the helpdesk. 
-3. Organizing the hardware network for the conference.
+In my role as an IT specialist, I maintained the business OA system for an insurance company. I was responsible for troubleshooting and fixing frontend bugs using JavaScript, as well as deploying new server stations for the helpdesk. Additionally, I organized the hardware network for conferences and other events.
  

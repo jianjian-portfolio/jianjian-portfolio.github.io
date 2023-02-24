@@ -5,6 +5,8 @@ company: Project
 datetime: 2021-08-18T04:02:02-05:00
 ---
 
-This in-house project was written in Java. The kit checked the survival status of nodes in the cluster by inspecting the returns of the command ping. The program will notify the maintenance by email if any nodes stop responding to the heartbeat signal. 
+This in-house project was developed using Java and designed to monitor the survival status of nodes in the cluster. The system inspected the returns of the command ping and notified maintenance staff by email if any nodes stopped responding to the heartbeat signal.
 
-In this project, I led a team of 5 to collaborate on project development. I participated in the design, implementation, code review, testing, and release to the environment.
+As a lead developer on this project, I worked closely with a team of 5 developers to collaborate on project development. My contributions spanned various phases of the development cycle, including design, implementation, code review, testing, and release to the environment.
+
+My leadership and expertise played a crucial role in ensuring that the project was completed on time and met all necessary requirements. The resulting system has improved the efficiency and effectiveness of the maintenance process, making it easier to ensure the health and reliability of the cluster.

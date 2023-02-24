@@ -4,16 +4,12 @@ last_modified_at: 2021-08-31T16:34:02-05:00
 datetime: 2021-08-31T16:34:02-05:00
 ---
 
-Being a lead data scientist intern, the company acknowledged my leadership via this referral letter. 
-
 ![alt]({{ site.url }}{{ site.baseurl }}/assets/images/leadership/IPwe_Recomm_Jian.jpg){: .align-center}
+<p style="text-align: center; font-size: 16px"><i>A recommendation letter from Jonas Block, Head of AI Development</i></p>
+As the lead data scientist intern, I was tasked with overseeing a team of two data scientists, two data engineers, and a biology expert to develop an NLP-related application for the company. The project aimed to mine patient data related to genetics to build an efficient online analyzing system.
 
-The company needed data scientists to build an NLP-related application. I was designated to be the team lead intern in my department. There are 2 data scientists, 2 data engineers, and a biology expert in the team. 
+To accomplish this, I organized weekly meetings where we brainstormed solutions and compared different technologies. After experimenting with various POC prototypes, we decided to use a BERT pre-trained model to carry out the NER task for building a recommender system based on graphical computation.
 
-This project is to devise a process of mining values from its patient acquisitions. Those patients were all related to the genetic of all species. There was a load of patients in the data warehouse. We need to find an efficient way to build an online analyzing system. 
+I facilitated remote collaboration using Microsoft Teams during the pandemic and encouraged the team to consult the subject expert for feedback before the next development cycle. Additionally, I provided one-on-one mentoring to team members to research more efficiently.
 
-Firstly, I scheduled a weekly meeting to be the first work of this project. In the meeting, we brainstormed the solution to the problem and compared different technologies. After the first meeting, the team concluded that the project was to build a recommender system based on the graphical computation. Thus, we experimented with many rounds of POC (proof of concept) prototyping and decided to use BERT pre-trained model to carry out the NER (name entity recognition) task.  
-
-We used Microsoft Teams to collaborate remotely during the pandemic. To collaborate with the subject experts, I suggested the team to consulting her for feedback before the next developing cycle. Also, I conducted one-on-one mentoring to the members on the way to research efficiently. Later, I integrated the work to deliver a quality product. 
-
-This project bridged the gap between the field of engineering and data science. It helped the company to clear the path of development for the next step.
+The project helped bridge the gap between engineering and data science and cleared the path for the company's future development. My leadership was recognized by the company through this referral letter.

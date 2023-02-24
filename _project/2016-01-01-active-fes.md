@@ -5,8 +5,12 @@ company: Project
 datetime: 2021-08-18T04:27:02-05:00
 ---
 
-This project is the infrastructure of the enterprise. It organizes the file storage and emails delivery service for other applications.  
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/projects/active.jpg){: .align-center}{: .align-left}{: style="height: 80px"}
 
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/projects/active.jpg){: .align-center}
+This project serves as the backbone of the enterprise by organizing file storage and email delivery for other applications. As the senior Java software engineer, I played a pivotal role in selecting candidate technologies, designing the project's architecture, developing the code, and overseeing the work of junior colleagues.
 
-As a Java software engineer, I selected the candidate technologies, designed the architecture of the project, developed the project code, and evaluated the performance of this application. I also mentored and reviewed the junior's work to make sure everything was on track. Before refactoring the whole project, the legacy system was cumbersome that cannot be maintained. So, the other applications had to adapt to this service. In addition, there are many unnecessary direct MQ invocations in the system. To break this bottleneck, I first evaluated the business impact of the potential changes. Then centralized the Twilio Sms sending service and the Sparkpost API for phase 1. And I scheduled a periodical cleaner to purge the legacy file stored in the NFS space. I used the design pattern - chain of responsibility to reorganize the architecture. After the reconstruction, I downloaded the memory snapshot through the JMS interface. With the help of the memory analyzer, I identified the bottleneck of the system. After applying the new configuration, the performance of this application can handle requests 3 times faster than before. And feedback from other projects suggests that the API is much easier to use. In return, the department can keep up with the latest business requirement.
+Before refactoring the entire project, the legacy system was outdated and difficult to maintain, which required other applications to adapt to its limitations. I identified and addressed bottlenecks in the system, such as direct MQ invocations and an excessive amount of unnecessary data stored in the NFS space.
+
+To streamline the system, I centralized the Twilio SMS sending service and the Sparkpost API during phase 1, while scheduling regular cleanups to purge outdated files. Using the chain of responsibility design pattern, I reorganized the architecture and used JMS interface to analyze memory snapshots.
+
+As a result of these efforts, the system can now handle requests three times faster than before, and feedback from other projects indicates that the API is easier to use. These improvements allow the department to keep up with the latest business requirements.
