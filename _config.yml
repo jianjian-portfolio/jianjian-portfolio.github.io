@@ -74,7 +74,7 @@ author:
       url: "https://www.bing.com/maps?osid=9a0b7469-cce4-4819-a1f8-391d924bffc2&cp=37.370817~-122.047876&lvl=15&v=2&sV=2&form=S00027"
     - label: "Resume"
       icon: "fas fa-fw fa-user"
-      url: "/assets/resume/Resume - Jian (Ken) J. .pdf"
+      url: "/assets/resume/Resume - Jian (Ken) Jian.pdf"
     - label: "ukgang.ukgang@gmail.com"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:ukgang.ukgang@gmail.com"
