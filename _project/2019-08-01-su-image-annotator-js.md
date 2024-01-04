@@ -11,4 +11,4 @@ The development of ImageAnnotatorJS, a JavaScript library designed to assist fro
 
 By providing this library to the research community, we hope to support and promote the development of new tools and techniques for image analysis, as well as to encourage collaboration and data sharing among researchers. With its ease of use and versatility, ImageAnnotatorJS has the potential to facilitate new discoveries and insights in a wide range of fields, from biomedical research to machine learning and computer vision.
 
-**A fun fact:** It has come to my attention that someone has engaged in plagiarism and is selling this library on CSDN. You can verify this information by visiting: [https://github.com/sciosci/ImageAnnotatorJS](https://github.com/sciosci/ImageAnnotatorJS).
+**A fun fact:** It has come to my attention that someone has engaged in plagiarism and is selling this library on CSDN. You can verify this information by visiting: [https://download.csdn.net/download/weixin_42171208/19073653](https://download.csdn.net/download/weixin_42171208/19073653).
