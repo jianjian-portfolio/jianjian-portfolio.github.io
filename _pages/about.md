@@ -3,7 +3,7 @@ permalink: /about/
 title: "About"
 ---
 
-Welcome to my portfolio website! I am Jian Jian, a machine learning and deep learning generalist at Deepcell. As an artificial intelligence specialist, I am experienced in working with big data, deep learning, computer vision, NLP, regression analysis, and predictive modeling. In my past projects, I have applied machine learning and deep learning techniques to various fields, including life sciences, intellectual property management, medical research, and social information science, helping clients to turn their ideas into reality. 
+Welcome to my portfolio website! I am Jian Jian, a Data and Applied Scientist at NetApp. As an artificial intelligence specialist, I am experienced in working with big data, deep learning, computer vision, NLP, regression analysis, and predictive modeling. In my past projects, I have applied machine learning and deep learning techniques to various fields, including life sciences, intellectual property management, medical research, and social information science, helping clients to turn their ideas into reality. 
 
 My career began 16 years ago when I obtained my bachelor's degree in economics. Since then, I have worked as a Java software engineer, and I have been fortunate enough to explore the field of machine learning. To deepen my understanding of this rapidly evolving field, I joined a selective research lab at <a href="https://scienceofscience.org/people/">SOS+CD Laboratory</a> and earned my master's degree in data science. As a lifelong learner, I invested heavily in my education to satisfy my curiosity. 
 
