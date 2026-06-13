@@ -67,7 +67,7 @@ plugins:
 author:
   name   : "Jian Jian (Ken)"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Senior Data & Applied Scientist at NetApp"
+  bio    : "Staff Data & Applied Scientist at NetApp"
   links:
     - label: "Silicon Valley, CA, United State"
       icon: "fas fa-fw fa-map-marker-alt"
