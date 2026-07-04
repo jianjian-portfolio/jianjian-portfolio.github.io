@@ -1,6 +1,7 @@
 ---
 title: "About Me"
 description: "Jian Jian, Staff Applied Scientist at NetApp—deep learning, production ML, Nature Portfolio research, co-invented patents, and open-source tools."
+lastmod: 2026-07-04
 sitemap:
   priority: 1.0
 layout: single

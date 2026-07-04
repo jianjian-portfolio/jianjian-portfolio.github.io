@@ -2,6 +2,7 @@
 title: "NEC Cloud Heartbeat Surveillance Toolkit"
 description: "Java cluster heartbeat monitoring toolkit at NEC: email alerts to ops when distributed server nodes fail or drop offline."
 date: 2010-05-01T00:00:00Z
+lastmod: 2026-07-04
 featured: false
 ---
 

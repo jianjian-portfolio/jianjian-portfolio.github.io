@@ -19,6 +19,9 @@
   "description": {{ $desc | jsonify }},
   "url": {{ $pageURL | jsonify }},
   "inLanguage": {{ .Language.Lang | jsonify }},
+  {{- if not .Lastmod.IsZero }}
+  "dateModified": {{ .Lastmod.Format "2006-01-02" | jsonify }},
+  {{- end }}
   "mainEntity": {
     "@type": "Person",
     "name": "Jian Jian",
@@ -44,6 +47,9 @@
   "description": {{ $desc | jsonify }},
   "url": {{ $pageURL | jsonify }},
   "inLanguage": {{ .Language.Lang | jsonify }},
+  {{- if not .Lastmod.IsZero }}
+  "dateModified": {{ .Lastmod.Format "2006-01-02" | jsonify }},
+  {{- end }}
   "author": {
     "@type": "Person",
     "name": "Jian Jian",
@@ -61,6 +67,9 @@
   "url": {{ $pageURL | jsonify }},
   "inLanguage": {{ .Language.Lang | jsonify }},
   "datePublished": {{ .Date.Format "2006-01-02" | jsonify }},
+  {{- if not .Lastmod.IsZero }}
+  "dateModified": {{ .Lastmod.Format "2006-01-02" | jsonify }},
+  {{- end }}
   "author": {
     "@type": "Person",
     "name": "Jian Jian",
@@ -77,6 +86,9 @@
   "description": {{ $desc | jsonify }},
   "url": {{ $pageURL | jsonify }},
   "inLanguage": {{ .Language.Lang | jsonify }},
+  {{- if not .Lastmod.IsZero }}
+  "dateModified": {{ .Lastmod.Format "2006-01-02" | jsonify }},
+  {{- end }}
   "author": {
     "@type": "Person",
     "name": "Jian Jian",

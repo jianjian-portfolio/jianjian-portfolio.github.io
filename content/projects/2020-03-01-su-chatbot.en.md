@@ -2,6 +2,7 @@
 title: "Covid-19 Chatbot"
 description: "COVID-19 BERT chatbot with Quora corpus fine-tuning and a Dash portal for public Q&A and research question collection."
 date: 2020-03-01T00:00:00Z
+lastmod: 2026-07-04
 featured: false
 cover:
     image: "/assets/images/projects/chatbot.png"

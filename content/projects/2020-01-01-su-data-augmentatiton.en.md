@@ -2,6 +2,7 @@
 title: "Data Augmentation for X-Ray Screening Images"
 description: "GAN-based data augmentation for X-ray screening images at Syracuse University, with Sobel filtering and NHST statistical validation."
 date: 2020-01-01T00:00:00Z
+lastmod: 2026-07-04
 featured: false
 cover:
     image: "/assets/images/projects/gan.jpeg"

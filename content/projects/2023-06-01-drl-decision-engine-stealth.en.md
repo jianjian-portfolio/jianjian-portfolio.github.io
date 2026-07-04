@@ -2,6 +2,7 @@
 title: "High-Throughput Deep Reinforcement Learning (DRL) Decision Engine (Stealth Pilot)"
 description: "Stealth pilot BDQ deep reinforcement learning engine for cloud resource supply and scheduling with GPU replay and preference alignment."
 date: 2023-06-01T00:00:00Z
+lastmod: 2026-07-04
 featured: true
 weight: 10
 sitemap:

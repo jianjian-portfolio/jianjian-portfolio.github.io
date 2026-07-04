@@ -2,6 +2,7 @@
 title: "Tampered Image Tagging System"
 description: "PDF academic figure tagging web app for SOS+CD lab: ML-assisted tampered-image detection with backend annotation APIs."
 date: 2020-05-01T00:00:00Z
+lastmod: 2026-07-04
 featured: false
 cover:
     image: "/assets/images/projects/pdf_image_annotator_1.jpg"

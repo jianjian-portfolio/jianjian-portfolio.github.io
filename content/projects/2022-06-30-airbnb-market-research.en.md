@@ -2,6 +2,7 @@
 title: "Supply–Demand Modeling for the Sharing-Economy Short-Term Rental Market"
 description: "AirDNA collaboration: BERT and NLP/SEM modeling of Airbnb short-term rental supply–demand and user booking behavior."
 date: 2022-06-30T00:00:00Z
+lastmod: 2026-07-04
 featured: false
 cover:
     image: "/assets/images/projects/airbnb-logo.jpeg"

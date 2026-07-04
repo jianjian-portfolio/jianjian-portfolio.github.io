@@ -34,6 +34,16 @@ jobs:
       - name: Build
         run: hugo --minify
 
+      - name: Verify build output
+        run: |
+          test -f public/sitemap.xml
+          test -f public/en/sitemap.xml
+          test -f public/zh/sitemap.xml
+          test -f public/zh/about/index.html
+          test ! -e public/zh/zh/about
+          ! grep -q '/categories/' public/en/sitemap.xml
+          ! grep -q '/tags/' public/en/sitemap.xml
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

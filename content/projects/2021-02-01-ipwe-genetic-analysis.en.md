@@ -2,6 +2,7 @@
 title: "Genetic Information Analysis"
 description: "IPwe PoC knowledge graph: NLP extraction of genetic sequences from life-sciences patent text with ETL and BLAST+ validation."
 date: 2021-02-01T00:00:00Z
+lastmod: 2026-07-04
 featured: false
 cover:
     image: "/assets/images/projects/ipwe.jpeg"

@@ -2,6 +2,7 @@
 title: "NEC Outsourcing Service Platform"
 description: "Led Beijing and Shanghai QA teams testing client applications on NEC's outsourcing platform, with high defect-detection rates before release."
 date: 2010-04-01T00:00:00Z
+lastmod: 2026-07-04
 featured: false
 ---
 

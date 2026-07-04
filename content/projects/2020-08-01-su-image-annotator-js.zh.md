@@ -2,6 +2,7 @@
 title: "ImageAnnotatorJS：科研诚信图像审查工具"
 description: "ORI 资助 ImageAnnotatorJS：模块化 AMD JavaScript 库，Canvas 矢量标注支持科研诚信图像审查。"
 date: 2020-08-01T00:00:00Z
+lastmod: 2026-07-04
 featured: false
 ---
 

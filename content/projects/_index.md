@@ -1,6 +1,7 @@
 ---
 title: "Projects & Case Studies"
 description: "Model design, training at scale, and production deployment—censored regression, vision pipelines, enterprise anomaly detection, branching RL, and patent-backed ML case studies."
+lastmod: 2026-07-04
 sitemap:
   priority: 0.7
 ---

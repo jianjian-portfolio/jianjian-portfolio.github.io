@@ -2,6 +2,7 @@
 title: "高吞吐深度强化学习（DRL）序贯决策引擎（Stealth Pilot）"
 description: "Stealth Pilot 云计算 BDQ 深度强化学习序贯决策引擎：资源供给与调度，GPU replay 与偏好对齐。"
 date: 2023-06-01T00:00:00Z
+lastmod: 2026-07-04
 featured: true
 weight: 10
 sitemap:

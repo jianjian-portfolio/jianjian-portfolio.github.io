@@ -2,6 +2,7 @@
 title: "eCommerce Service Platform"
 description: "Active Network merchant e-commerce APIs: payment refactor, token-bucket throttling, and MongoDB Change Streams reaching 300 TPS throughput."
 date: 2016-01-01T00:00:00Z
+lastmod: 2026-07-04
 featured: false
 cover:
     image: "/assets/images/projects/active.jpg"

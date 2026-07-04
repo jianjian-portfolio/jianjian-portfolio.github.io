@@ -1,11 +1,12 @@
 ---
 title: "个人简介"
 description: "建健（Jian Jian），NetApp 资深应用科学家——深度学习、生产级 ML、Nature 子刊论文、共同发明专利与开源项目。"
+lastmod: 2026-07-04
 sitemap:
   priority: 1.0
 layout: single
 aliases:
-  - /zh/about/
+  - /about/
 hideMeta: true
 ---
 

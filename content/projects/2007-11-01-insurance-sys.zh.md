@@ -2,6 +2,7 @@
 title: "保险单与办公自动化集成系统"
 description: "早期 IT 岗位：维护保险公司 OA 系统，负责 JavaScript 前端排障、服务台服务器部署与会议网络搭建。"
 date: 2007-11-01T00:00:00Z
+lastmod: 2026-07-04
 featured: false
 ---
 

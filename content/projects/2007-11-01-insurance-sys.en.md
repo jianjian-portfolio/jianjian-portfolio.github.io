@@ -2,6 +2,7 @@
 title: "Insurance Policy& OA Integration System"
 description: "Early IT role maintaining an insurance company OA system: JavaScript frontend fixes, helpdesk server deployment, and event network setup."
 date: 2007-11-01T00:00:00Z
+lastmod: 2026-07-04
 featured: false
 ---
 

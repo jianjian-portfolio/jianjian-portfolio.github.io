@@ -2,6 +2,7 @@
 title: "微信发电量预测小程序 (POC)"
 description: "华能秦岭电厂 POC：微信小程序 + REST 后端，展示机器学习发电量预测结果。"
 date: 2018-07-01T00:00:00Z
+lastmod: 2026-07-04
 featured: false
 cover:
     image: "/assets/images/projects/wechatapp.jpeg"

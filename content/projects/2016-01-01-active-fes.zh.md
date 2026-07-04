@@ -2,6 +2,7 @@
 title: "基础邮件与文件存储微服务"
 description: "重构 Active Network 邮件与文件存储（FES）微服务，集中 Twilio/SparkPost 投递，吞吐量提升 3 倍。"
 date: 2016-01-01T00:00:00Z
+lastmod: 2026-07-04
 featured: false
 cover:
     image: "/assets/images/projects/active.jpg"

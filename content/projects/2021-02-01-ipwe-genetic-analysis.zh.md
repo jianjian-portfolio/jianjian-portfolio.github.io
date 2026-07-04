@@ -2,6 +2,7 @@
 title: "基因序列知识图谱与文本提取"
 description: "IPwe 知识图谱 PoC：NLP 从生物科技专利文本提取基因序列，ETL 与 BLAST+ 验证。"
 date: 2021-02-01T00:00:00Z
+lastmod: 2026-07-04
 featured: false
 cover:
     image: "/assets/images/projects/ipwe.jpeg"

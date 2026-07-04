@@ -2,6 +2,7 @@
 title: "WeChat micro App"
 description: "WeChat mini-program POC for Huaneng Qinling power plant: REST backend showcasing machine-learning electricity output forecasts."
 date: 2018-07-01T00:00:00Z
+lastmod: 2026-07-04
 featured: false
 cover:
     image: "/assets/images/projects/wechatapp.jpeg"

@@ -2,6 +2,7 @@
 title: "Active 商业引擎架构"
 description: "Active Network 商户电商 API：支付重构、令牌桶限流与 MongoDB 变更流，系统吞吐达 300 TPS。"
 date: 2016-01-01T00:00:00Z
+lastmod: 2026-07-04
 featured: false
 cover:
     image: "/assets/images/projects/active.jpg"

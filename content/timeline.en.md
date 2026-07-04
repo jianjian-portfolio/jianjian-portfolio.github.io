@@ -1,6 +1,7 @@
 ---
 title: "Career Journey"
 description: "17-year career journey from enterprise systems to applied ML research, with verified degrees, certificates, patents, and expandable proof."
+lastmod: 2026-07-04
 sitemap:
   priority: 0.8
 aliases:

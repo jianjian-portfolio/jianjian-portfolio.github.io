@@ -2,6 +2,7 @@
 title: "ImageAnnotatorJS: Research Integrity Figure Review Tool"
 description: "ORI-funded ImageAnnotatorJS: modular AMD JavaScript library for canvas vector annotation in research-integrity figure review."
 date: 2020-08-01T00:00:00Z
+lastmod: 2026-07-04
 featured: false
 ---
 

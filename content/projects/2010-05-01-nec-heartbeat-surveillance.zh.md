@@ -2,6 +2,7 @@
 title: "NEC 服务器心跳监控仪表板"
 description: "NEC Java 集群心跳监控系统：在分布式服务器节点故障或离线时向运维团队发送邮件告警。"
 date: 2010-05-01T00:00:00Z
+lastmod: 2026-07-04
 featured: false
 ---
 

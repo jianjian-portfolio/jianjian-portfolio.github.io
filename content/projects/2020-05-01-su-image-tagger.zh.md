@@ -2,6 +2,7 @@
 title: "篡改图片标注系统"
 description: "SOS+CD 实验室 PDF 学术图像标注 Web 应用：ML 辅助篡改检测与后端标注 API。"
 date: 2020-05-01T00:00:00Z
+lastmod: 2026-07-04
 featured: false
 cover:
     image: "/assets/images/projects/pdf_image_annotator_1.jpg"

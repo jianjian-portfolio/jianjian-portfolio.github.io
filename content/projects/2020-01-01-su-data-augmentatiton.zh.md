@@ -2,6 +2,7 @@
 title: "基于 GAN 的 X 射线胸片图像数据增强"
 description: "雪城大学 GAN X 射线筛查影像数据增强研究，含 Sobel 滤波与 NHST 统计验证。"
 date: 2020-01-01T00:00:00Z
+lastmod: 2026-07-04
 featured: false
 cover:
     image: "/assets/images/projects/gan.jpeg"

@@ -2,6 +2,7 @@
 title: "NEC 业务外包管理平台"
 description: "负责 NEC 业务外包平台京沪测试团队，执行客户应用测试，以高缺陷检出率保障发布质量。"
 date: 2010-04-01T00:00:00Z
+lastmod: 2026-07-04
 featured: false
 ---
 

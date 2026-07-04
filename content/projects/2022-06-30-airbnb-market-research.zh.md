@@ -2,6 +2,7 @@
 title: "共享经济短租市场供需关系建模"
 description: "与 AirDNA 合作：BERT 与 NLP/SEM 建模 Airbnb 短租市场供需与用户预订行为。"
 date: 2022-06-30T00:00:00Z
+lastmod: 2026-07-04
 featured: false
 cover:
     image: "/assets/images/projects/airbnb-logo.jpeg"

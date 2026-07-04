@@ -6,6 +6,7 @@ enableRobotsTXT = false
 
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
+disableKinds = ["taxonomy", "term"]
 
 # Enable search and other configurations
 outputs = ["HTML", "RSS", "JSON"]

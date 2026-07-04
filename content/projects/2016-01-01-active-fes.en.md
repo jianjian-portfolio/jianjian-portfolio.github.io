@@ -2,6 +2,7 @@
 title: "Foundation Email& File Storage Service"
 description: "Refactored Active Network FES mail and file-storage microservices with centralized Twilio/SparkPost delivery, tripling throughput."
 date: 2016-01-01T00:00:00Z
+lastmod: 2026-07-04
 featured: false
 cover:
     image: "/assets/images/projects/active.jpg"

@@ -2,6 +2,7 @@
 title: "COVID-19 智能问答机器人"
 description: "COVID-19 BERT 问答机器人：Quora 语料微调 + Dash 门户，提供公众问答并收集研究问题。"
 date: 2020-03-01T00:00:00Z
+lastmod: 2026-07-04
 featured: false
 cover:
     image: "/assets/images/projects/chatbot.png"

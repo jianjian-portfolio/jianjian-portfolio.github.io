@@ -1,11 +1,12 @@
 ---
 title: "职业历程"
 description: "17 年职业历程：从系统工程到应用 ML 研究，附学位、证书、专利与可展开的路径佐证。"
+lastmod: 2026-07-04
 sitemap:
   priority: 0.8
 aliases:
-  - /zh/certificate/
-  - /zh/certificates/
+  - /certificate/
+  - /certificates/
 ---
 
 <div class="wide-page-container"></div>
