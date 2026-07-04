@@ -197,13 +197,29 @@ cover:
 <line x1="284" y1="134" x2="344" y2="134" stroke="var(--diagram-stable)" stroke-width="1.5" marker-end="url(#drl-f3-arrow-stable-zh)"/>
 <line x1="222" y1="193" x2="222" y2="165" stroke="var(--diagram-stable)" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#drl-f3-arrow-stable-zh)"/>
 <path d="M 388 156 L 388 206 L 39 206 L 39 64" stroke="var(--diagram-stable)" stroke-width="1.5" stroke-dasharray="4 3" fill="none" marker-end="url(#drl-f3-arrow-stable-zh)"/>
+</g>
+<g class="interactive-group">
 <circle cx="148" cy="116" r="4.5" fill="var(--entry)" stroke="var(--diagram-stable)" stroke-width="1.2"/>
+</g>
+<g class="interactive-group">
 <circle cx="148" cy="128" r="4.5" fill="var(--entry)" stroke="var(--diagram-stable)" stroke-width="1.2"/>
+</g>
+<g class="interactive-group">
 <circle cx="148" cy="140" r="4.5" fill="var(--entry)" stroke="var(--diagram-stable)" stroke-width="1.2"/>
+</g>
+<g class="interactive-group">
 <circle cx="148" cy="152" r="4.5" fill="var(--entry)" stroke="var(--diagram-stable)" stroke-width="1.2"/>
+</g>
+<g class="interactive-group">
 <circle cx="210" cy="122" r="4.5" fill="var(--entry)" stroke="var(--diagram-stable)" stroke-width="1.2"/>
+</g>
+<g class="interactive-group">
 <circle cx="210" cy="134" r="4.5" fill="var(--entry)" stroke="var(--diagram-stable)" stroke-width="1.2"/>
+</g>
+<g class="interactive-group">
 <circle cx="210" cy="146" r="4.5" fill="var(--entry)" stroke="var(--diagram-stable)" stroke-width="1.2"/>
+</g>
+<g class="interactive-group">
 <circle cx="278" cy="134" r="5.5" fill="var(--entry)" stroke="var(--diagram-stable)" stroke-width="1.3"/>
 </g>
 <text x="6" y="42" fill="var(--diagram-accent)" text-anchor="end" font-family="sans-serif" class="diagram-anno-label">主分支 →</text>
