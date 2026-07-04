@@ -1,6 +1,6 @@
 ---
 title: "About Me"
-description: "Jian Jian, Staff Applied Scientist at NetApp, specializing in deep learning, production ML systems, and applied machine learning research."
+description: "Jian Jian, Staff Applied Scientist at NetApp—deep learning, production ML, Nature Portfolio research, co-invented patents, and open-source tools."
 sitemap:
   priority: 1.0
 layout: single
@@ -11,7 +11,7 @@ hideMeta: true
 
 I am a **Staff Applied Scientist** at NetApp. Over 17 years, my research and engineering work has spanned deep learning, multi-agent AI systems, data science, and high-performance enterprise systems. I specialize in designing and deploying scalable intelligent systems, anomaly detection, and hardware-accelerated inference—bridging deep mathematical theory with rigorous systems engineering to ship production-grade AI under strict latency and compute constraints.
 
-Currently, I lead an AI & ML R&D team at NetApp, working to bring frontier AI research into real enterprise systems. Before NetApp, I was a Data Scientist at DeepCell, developing deep learning models end-to-end through production deployment. I also served as a **Researcher** in Daniel Acuña's [Science of Science & Computational Discovery Lab](https://scienceofscience.org/) (Syracuse University iSchool, 2020–2021), where we co-authored a [Nature Portfolio paper](https://www.nature.com/articles/s41599-025-04716-z) on the lifespan of scientific resources, combining rigorous statistical modeling with large-scale metadata mining.
+Currently, I lead an AI & ML R&D team at NetApp. My role is to bring frontier AI research into real enterprise systems. Before NetApp, I was a Data Scientist at DeepCell, developing deep learning models end-to-end through production deployment. I also served as a **Researcher** in Daniel Acuña's [Science of Science & Computational Discovery Lab](https://scienceofscience.org/) (Syracuse University iSchool, 2020–2021), where we co-authored a [Nature Portfolio paper](https://www.nature.com/articles/s41599-025-04716-z) on the lifespan of scientific resources, combining rigorous statistical modeling with large-scale metadata mining.
 
 This blend of **mathematical intuition** and low-level systems engineering background (C++ and Java) lets me span the critical stages of the ML lifecycle—from custom algorithms to high-throughput inference deployment on GPUs and TPUs with PyTorch, TensorFlow, TensorRT, and ONNX. For a full account of my 17-year path from traditional systems development to applied AI research, see [Career Journey](/timeline/). In navigating that transition, reaching one's destination is like a long journey, yet the road itself feels like driving on a highway at night—you can only see the stretch immediately ahead. So I have learned to live in the present: instead of worrying about what I cannot yet see, I focus on the next stretch of road; the way forward clarifies itself as you keep going.
 

@@ -1823,6 +1823,66 @@ body.project-modal-open {
   -webkit-backdrop-filter: blur(10px);
 }
 
+/* Logo + theme/lang switches: fixed switch column (stable across EN/ZH titles) */
+.header-nav .logo {
+  display: grid;
+  grid-template-columns: 16.85rem auto;
+  align-items: center;
+  column-gap: 0.09rem;
+  flex-wrap: nowrap;
+}
+
+.header-nav .logo > a {
+  min-width: 0;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.header-nav .logo-switches {
+  position: static;
+  transform: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  flex-shrink: 0;
+  min-height: auto;
+}
+
+.header-nav .logo-switches > * {
+  min-height: auto;
+  align-items: center;
+  display: inline-flex;
+}
+
+.header-nav .theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  padding: 0 0.4rem;
+}
+
+.header-nav .theme-toggle svg {
+  width: 17px;
+  height: 17px;
+  flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+  .header-nav .logo {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .header-nav .logo > a {
+    white-space: normal;
+    overflow: visible;
+    text-overflow: clip;
+  }
+}
+
 /* Back-to-top: align with main content column, not viewport edge */
 .top-link {
   right: calc(

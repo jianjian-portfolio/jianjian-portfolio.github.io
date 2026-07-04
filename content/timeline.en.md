@@ -1,6 +1,6 @@
 ---
 title: "Career Journey"
-description: "17-year career path from enterprise systems engineering to applied ML research, with verified credentials and expandable proof documents."
+description: "17-year career journey from enterprise systems to applied ML research, with verified degrees, certificates, patents, and expandable proof."
 sitemap:
   priority: 0.8
 aliases:
@@ -10,7 +10,11 @@ aliases:
 
 <div class="wide-page-container"></div>
 
-The path below traces a 17-year professional journey from non-technical beginnings through enterprise systems engineering to applied machine learning research, alongside verified technical credentials.
+This career path was not smooth sailing—I pursued it **not because it was easy, but because it was worth seeing through**. Over 17 years, starting from financial services (life insurance market development) and a **non-technical** background, I began in a first technical role paying roughly **1,000 RMB per month (~$143 USD)**. From there, I moved through cluster health monitoring, public-sector system delivery, high-throughput distributed platforms, production ML deployment, and academic research to leading applied AI work at scale—**navigating uncertainty around every corner**. Each pivot came with real costs: stepping into unfamiliar technical territory, sunk effort, and choices made before the next chapter was clear.
+
+Modern AI can absorb vast knowledge and grasp patterns from text, but it cannot distill **the merit of a path shaped by those corners**. That merit shows in **the resolve to keep building—from unsupported, humble beginnings, without guarantees or backing**; in **production judgment** forged through years of hands-on work across industry and academia; and in **endurance** to keep researching and publishing academic work while repaying student loans under real financial pressure.
+
+Applied AI is my daily work. Still, some of what matters most in that work depends on someone who has learned to navigate uncertainty on a winding path. **That merit can't be fully distilled into credentials alone, nor replicated in model weights.** It is part of what I bring—**beyond the depth and breadth of my work alone**.
 
 ---
 

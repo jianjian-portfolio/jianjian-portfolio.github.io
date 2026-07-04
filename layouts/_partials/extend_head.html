@@ -23,6 +23,55 @@
 })();
 </script>
 
+<script>
+(function () {
+  var SCROLL_KEY = "lang-switch-scroll";
+  if ("scrollRestoration" in history) {
+    history.scrollRestoration = "manual";
+  }
+  var raw;
+  try {
+    raw = sessionStorage.getItem(SCROLL_KEY);
+  } catch (e) {}
+  if (!raw) return;
+
+  var data;
+  try {
+    data = JSON.parse(raw);
+    sessionStorage.removeItem(SCROLL_KEY);
+  } catch (e) {
+    return;
+  }
+
+  var html = document.documentElement;
+  html.classList.add("lang-switch-restore");
+  var style = document.createElement("style");
+  style.id = "lang-switch-restore-style";
+  style.textContent =
+    "html.lang-switch-restore{overflow:hidden!important}" +
+    "html.lang-switch-restore body{visibility:hidden!important}";
+  document.head.appendChild(style);
+
+  function finish() {
+    html.classList.remove("lang-switch-restore");
+    var el = document.getElementById("lang-switch-restore-style");
+    if (el) el.remove();
+  }
+
+  function apply() {
+    var max = Math.max(0, document.documentElement.scrollHeight - window.innerHeight);
+    var y =
+      typeof data.ratio === "number" && !isNaN(data.ratio)
+        ? Math.round(data.ratio * max)
+        : data.y || 0;
+    window.scrollTo(0, y);
+    finish();
+  }
+
+  window.addEventListener("load", apply, { once: true });
+})();
+</script>
+
 {{- if .IsHome }}
 <script>
 (function () {

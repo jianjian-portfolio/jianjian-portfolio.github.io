@@ -47,7 +47,7 @@ outputs = ["HTML", "RSS", "JSON"]
     title = "Biography of Jian Jian"
     
     [languages.en.params]
-      description = "Jian Jian, Staff Applied Scientist at NetApp, specializing in deep learning, production ML systems, and applied machine learning research."
+      description = "Jian Jian, Staff Applied Scientist at NetApp—deep learning, production ML, Nature Portfolio research, co-invented patents, and open-source tools."
       
       [[languages.en.params.socialIcons]]
         name = "github"
@@ -82,7 +82,7 @@ outputs = ["HTML", "RSS", "JSON"]
     
     [languages.zh.params]
       languageAltTitle = "简"
-      description = "建健（Jian Jian），NetApp 资深应用科学家（Staff Applied Scientist）。专注于深度学习、生产级机器学习系统与应用机器学习研究。"
+      description = "建健（Jian Jian），NetApp 资深应用科学家——深度学习、生产级 ML、Nature 子刊论文、共同发明专利与开源项目。"
       
       [[languages.zh.params.socialIcons]]
         name = "github"
