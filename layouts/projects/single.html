@@ -6,7 +6,7 @@
     {{- if eq (.Param "cover.style") "logo" }}
     <div class="project-title-row">
       <h1 class="post-title entry-hint-parent">
-        {{ .Title }}
+        {{ partial "project-title.html" . }}
         {{- if .Draft }}
         <span class="entry-hint" title="Draft">
           <svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960" fill="currentColor">
@@ -20,7 +20,7 @@
     </div>
     {{- else }}
     <h1 class="post-title entry-hint-parent">
-      {{ .Title }}
+      {{ partial "project-title.html" . }}
       {{- if .Draft }}
       <span class="entry-hint" title="Draft">
         <svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960" fill="currentColor">

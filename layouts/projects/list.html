@@ -36,7 +36,7 @@
     {{- end }}
     <div class="featured-project-body">
       <header class="entry-header">
-        <h3 class="featured-project-title">{{ .Title }}</h3>
+        <h3 class="featured-project-title">{{ partial "project-title.html" . }}</h3>
       </header>
       <div class="featured-project-summary">
         <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
@@ -47,7 +47,7 @@
         </span>
       </footer>
     </div>
-    <a class="featured-project-link" aria-label="{{ .Title }}" href="{{ .RelPermalink }}"></a>
+    <a class="featured-project-link project-modal-trigger" aria-label="{{ .Title }}" href="{{ .RelPermalink }}" data-project-url="{{ .RelPermalink }}"></a>
   </article>
   {{- end }}
 </div>
@@ -73,10 +73,12 @@
         <time>{{ .Date.Format "2006-01" }}</time>
       </div>
     </div>
-    <a class="legacy-project-link" aria-label="{{ .Title }}" href="{{ .RelPermalink }}"></a>
+    <a class="legacy-project-link project-modal-trigger" aria-label="{{ .Title }}" href="{{ .RelPermalink }}" data-project-url="{{ .RelPermalink }}"></a>
   </article>
   {{- end }}
 </div>
 {{- end }}
+
+{{- partial "project-modal.html" . }}
 
 {{- end }}
