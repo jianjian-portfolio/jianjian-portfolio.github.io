@@ -1,0 +1,120 @@
+baseURL = "https://jianjian-portfolio.github.io/"
+title = "Jian Jian | Portfolio"
+theme = "PaperMod"
+languageCode = "en-us"
+enableRobotsTXT = false
+
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+
+# Enable search and other configurations
+outputs = ["HTML", "RSS", "JSON"]
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+
+[services]
+  [services.googleAnalytics]
+    ID = "G-92344ML5YY"
+
+[params]
+    env = "production"
+    defaultTheme = "dark"
+    disableThemeToggle = false
+    showShareButtons = false
+    showCodeCopyButtons = true
+    
+    # Global author metadata
+    author = "Jian Jian"
+    
+    # SEO / Analytics
+    googleAnalytics = "G-92344ML5YY"
+    images = ["/assets/images/bio-photo.jpg"]
+
+    [params.assets]
+        favicon = "/assets/favicon/favicon.ico"
+        favicon16x16 = "/assets/favicon/favicon-16x16.png"
+        favicon32x32 = "/assets/favicon/favicon-32x32.png"
+        apple_touch_icon = "/assets/favicon/apple-icon-180x180.png"
+
+[languages]
+  [languages.en]
+    languageCode = "en-us"
+    locale = "en-us"
+    label = "EN"
+    weight = 1
+    title = "Biography of Jian Jian"
+    
+    [languages.en.params]
+      description = "Jian Jian, Staff Applied Scientist at NetApp, specializing in deep learning, production ML systems, and applied machine learning research."
+      
+      [[languages.en.params.socialIcons]]
+        name = "github"
+        url = "https://github.com/UKGANG"
+      [[languages.en.params.socialIcons]]
+        name = "linkedin"
+        url = "https://www.linkedin.com/in/jian-jian/"
+      [[languages.en.params.socialIcons]]
+        name = "email"
+        url = "mailto:jjian03@syr.edu"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        name = "About"
+        url = "/"
+        weight = 10
+      [[languages.en.menu.main]]
+        name = "Projects"
+        url = "/projects/"
+        weight = 20
+      [[languages.en.menu.main]]
+        name = "Career Journey"
+        url = "/timeline/"
+        weight = 30
+
+  [languages.zh]
+    languageCode = "zh-cn"
+    locale = "zh-cn"
+    label = "简"
+    weight = 2
+    title = "建健的个人简介"
+    
+    [languages.zh.params]
+      languageAltTitle = "简"
+      description = "建健（Jian Jian），NetApp 资深应用科学家（Staff Applied Scientist）。专注于深度学习、生产级机器学习系统与应用机器学习研究。"
+      
+      [[languages.zh.params.socialIcons]]
+        name = "github"
+        url = "https://github.com/UKGANG"
+      [[languages.zh.params.socialIcons]]
+        name = "linkedin"
+        url = "https://www.linkedin.com/in/jian-jian/"
+      [[languages.zh.params.socialIcons]]
+        name = "email"
+        url = "mailto:jjian03@syr.edu"
+
+    [languages.zh.menu]
+      [[languages.zh.menu.main]]
+        name = "个人简介"
+        url = "/"
+        weight = 10
+      [[languages.zh.menu.main]]
+        name = "项目成果"
+        url = "/projects/"
+        weight = 20
+      [[languages.zh.menu.main]]
+        name = "职业历程"
+        url = "/timeline/"
+        weight = 30
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['$$', '$$']]
+          inline = [['$', '$']]

@@ -1,0 +1,66 @@
+{{- $desc := .Description | default .Summary | default site.Params.description | plainify | htmlUnescape | truncate 160 }}
+{{- $pageURL := .Permalink | absURL }}
+{{- $homeEN := site.GetPage "/" }}
+{{- if and hugo.IsMultilingual $homeEN .IsTranslated }}
+<link rel="alternate" hreflang="x-default" href="{{ $homeEN.Permalink | absURL }}">
+{{- end }}
+
+{{- if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "name": {{ .Title | jsonify }},
+  "description": {{ $desc | jsonify }},
+  "url": {{ $pageURL | jsonify }},
+  "inLanguage": {{ .Language.Lang | jsonify }},
+  "mainEntity": {
+    "@type": "Person",
+    "name": "Jian Jian",
+    "jobTitle": "Staff Applied Scientist",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "NetApp"
+    },
+    "url": {{ ($homeEN.Permalink | absURL) | jsonify }},
+    "sameAs": [
+      "https://github.com/UKGANG",
+      "https://www.linkedin.com/in/jian-jian/"
+    ]
+  }
+}
+</script>
+{{- else if eq .Section "projects" }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  "name": {{ .Title | jsonify }},
+  "description": {{ $desc | jsonify }},
+  "url": {{ $pageURL | jsonify }},
+  "inLanguage": {{ .Language.Lang | jsonify }},
+  "datePublished": {{ .Date.Format "2006-01-02" | jsonify }},
+  "author": {
+    "@type": "Person",
+    "name": "Jian Jian",
+    "url": {{ ($homeEN.Permalink | absURL) | jsonify }}
+  }
+}
+</script>
+{{- else if in .RelPermalink "/timeline/" }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": {{ .Title | jsonify }},
+  "description": {{ $desc | jsonify }},
+  "url": {{ $pageURL | jsonify }},
+  "inLanguage": {{ .Language.Lang | jsonify }},
+  "author": {
+    "@type": "Person",
+    "name": "Jian Jian",
+    "url": {{ ($homeEN.Permalink | absURL) | jsonify }}
+  }
+}
+</script>
+{{- end }}

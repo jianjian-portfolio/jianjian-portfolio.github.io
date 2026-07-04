@@ -1,0 +1,5 @@
+{{- if eq (.Param "cover.style") "logo" -}}
+{{- with .Param "cover.image" -}}
+<img class="project-title-row__logo" src="{{ . | relURL }}" alt="{{ $.Param "cover.alt" | default $.Title }}" loading="eager">
+{{- end -}}
+{{- end -}}

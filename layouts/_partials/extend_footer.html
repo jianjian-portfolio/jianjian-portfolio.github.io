@@ -1,0 +1,77 @@
+<div id="cert-lightbox" class="cert-lightbox" hidden role="dialog" aria-modal="true" aria-label="Certificate viewer">
+<div class="cert-lightbox-panel" role="document">
+<div class="cert-lightbox-header">
+<p class="cert-lightbox-caption"></p>
+<button type="button" class="cert-lightbox-close" aria-label="Close">&times;</button>
+</div>
+<div class="cert-lightbox-body">
+<img class="cert-lightbox-img" src="" alt="" />
+</div>
+</div>
+</div>
+<script>
+(function () {
+  var KEY = "site-lang-pref";
+  document.querySelectorAll(".lang-menu a").forEach(function (link) {
+    link.addEventListener("click", function () {
+      var href = link.getAttribute("href") || "";
+      if (href.indexOf("/zh") !== -1) {
+        localStorage.setItem(KEY, "zh");
+      } else {
+        localStorage.setItem(KEY, "en");
+      }
+    });
+  });
+})();
+
+(function () {
+  var lb = document.getElementById("cert-lightbox");
+  if (!lb) return;
+
+  var img = lb.querySelector(".cert-lightbox-img");
+  var caption = lb.querySelector(".cert-lightbox-caption");
+  var closeBtn = lb.querySelector(".cert-lightbox-close");
+
+  function openLightbox(src, alt) {
+    if (!src) return;
+    img.src = src;
+    img.alt = alt || "";
+    caption.textContent = alt || "";
+    lb.hidden = false;
+    document.body.classList.add("cert-lightbox-open");
+    closeBtn.focus();
+  }
+
+  function closeLightbox() {
+    lb.hidden = true;
+    img.src = "";
+    img.alt = "";
+    caption.textContent = "";
+    document.body.classList.remove("cert-lightbox-open");
+  }
+
+  document.querySelectorAll("[data-cert-full]").forEach(function (el) {
+    el.addEventListener("click", function () {
+      openLightbox(
+        el.getAttribute("data-cert-full"),
+        el.getAttribute("data-cert-alt") || ""
+      );
+    });
+  });
+
+  document.querySelectorAll(".cert-expandable-img").forEach(function (el) {
+    el.addEventListener("click", function (e) {
+      e.stopPropagation();
+      openLightbox(el.getAttribute("src"), el.getAttribute("alt") || "");
+    });
+  });
+
+  closeBtn.addEventListener("click", closeLightbox);
+  lb.addEventListener("click", function (e) {
+    if (e.target === lb) closeLightbox();
+  });
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape" && !lb.hidden) closeLightbox();
+  });
+})();
+</script>

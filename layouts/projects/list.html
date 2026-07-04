@@ -1,0 +1,82 @@
+{{- define "main" }}
+<header class="page-header">
+  {{- partial "breadcrumbs.html" . }}
+  <h1>{{ .Title }}</h1>
+</header>
+
+{{- if .Content }}
+<div class="post-content md-content">
+  {{- if not (.Param "disableAnchoredHeadings") }}
+  {{- partial "anchored_headings.html" .Content -}}
+  {{- else }}{{ .Content }}{{ end }}
+</div>
+{{- end }}
+
+{{- $featured := where .RegularPages "Params.featured" true }}
+{{- $featured = sort $featured "Weight" "asc" }}
+{{- $legacy := where .RegularPages "Params.featured" "!=" true }}
+
+{{- if $featured }}
+<div class="projects-section-header">
+  <h2>
+    {{- if eq .Lang "zh" -}}精选 AI 与深度学习研究{{- else -}}Curated Featured AI & Deep Learning Research{{- end -}}
+  </h2>
+</div>
+<div class="featured-projects-grid">
+  {{- range $featured }}
+  <article class="featured-project-card">
+    {{- $isHidden := (.Param "cover.hiddenInList") | default (.Param "cover.hidden") | default false }}
+    {{- if not $isHidden }}
+      {{- $cover := (.Param "cover.image") }}
+      {{- if $cover }}
+        <div class="featured-project-cover">
+          <img src="{{ $cover | relURL }}" alt="{{ .Param "cover.alt" | default .Title }}">
+        </div>
+      {{- end }}
+    {{- end }}
+    <div class="featured-project-body">
+      <header class="entry-header">
+        <h3 class="featured-project-title">{{ .Title }}</h3>
+      </header>
+      <div class="featured-project-summary">
+        <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
+      </div>
+      <footer class="featured-project-footer">
+        <span class="read-more-btn">
+          {{- if eq $.Lang "zh" -}}阅读全文 →{{- else -}}Read Full Case Study →{{- end -}}
+        </span>
+      </footer>
+    </div>
+    <a class="featured-project-link" aria-label="{{ .Title }}" href="{{ .RelPermalink }}"></a>
+  </article>
+  {{- end }}
+</div>
+{{- end }}
+
+{{- if $legacy }}
+<div class="projects-section-header">
+  <h2>
+    {{- if eq .Lang "zh" -}}企业级应用与早期历史项目{{- else -}}Enterprise Systems & Legacy Projects{{- end -}}
+  </h2>
+</div>
+<div class="legacy-projects-grid">
+  {{- range $legacy }}
+  <article class="legacy-project-card">
+    <div class="legacy-project-body">
+      <header class="entry-header">
+        <h4 class="legacy-project-title">{{ .Title }}</h4>
+      </header>
+      <div class="legacy-project-description">
+        <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
+      </div>
+      <div class="legacy-project-meta">
+        <time>{{ .Date.Format "2006-01" }}</time>
+      </div>
+    </div>
+    <a class="legacy-project-link" aria-label="{{ .Title }}" href="{{ .RelPermalink }}"></a>
+  </article>
+  {{- end }}
+</div>
+{{- end }}
+
+{{- end }}

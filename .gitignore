@@ -1,3 +1,20 @@
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+
+# Local temp / debug artifacts
+.tmp/
+*.original.png
+
+# Hugo
+public/
+.hugo_build.lock
+resources/_gen/
+hugo_stats.json
+
+# Legacy Jekyll
 _site
 .sass-cache
 .jekyll-metadata

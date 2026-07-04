@@ -1,0 +1,6 @@
+<figure class="project-figure-block{{ if .Get "wide" }} project-figure-block--wide{{ end }}{{ if .Get "stacked" }} project-figure-block--in-stack{{ else if eq (.Get "embed") "right" }} project-figure-block--embed-right{{ else if eq (.Get "embed") "left" }} project-figure-block--embed-left{{ end }}"{{ with .Get "width" }} style="--embed-img-width: {{ . }}px"{{ end }}>
+  <img src="{{ (.Get "src") | relURL }}" alt="{{ .Get "alt" | default "" }}" loading="lazy">
+  {{- with .Get "caption" -}}
+  <figcaption class="project-figure-block-caption">{{ . }}</figcaption>
+  {{- end -}}
+</figure>

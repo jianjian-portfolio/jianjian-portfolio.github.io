@@ -1,0 +1,2 @@
+{{- $src := .Get "src" | default (.Get 0) -}}
+<img src="{{ $src | relURL }}" alt="{{ .Get "alt" | default "" }}" loading="{{ .Get "loading" | default "lazy" }}">

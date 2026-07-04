@@ -1,0 +1,18 @@
+{{- $parts := split .Inner "---" -}}
+{{- $media := trim (index $parts 0) " \n\r\t" -}}
+{{- $text := "" -}}
+{{- if gt (len $parts) 1 -}}
+  {{- $text = trim (index $parts 1) " \n\r\t" -}}
+{{- end -}}
+<div class="project-figure-aside project-figure-aside--{{ .Get "side" | default "left" }}">
+  <div class="project-figure-aside-media">
+    <div class="project-figure-stack project-figure-stack--in-aside">
+      {{ $media | safeHTML }}
+    </div>
+  </div>
+  {{- with $text -}}
+  <div class="project-figure-aside-body">
+    {{ $.Page.RenderString . }}
+  </div>
+  {{- end -}}
+</div>
