@@ -74,4 +74,47 @@
     if (e.key === "Escape" && !lb.hidden) closeLightbox();
   });
 })();
+
+(function () {
+  var PREF_KEY = "pref-theme";
+  var mq = window.matchMedia("(prefers-color-scheme: dark)");
+
+  function hasSessionPref() {
+    try {
+      var pref = sessionStorage.getItem(PREF_KEY);
+      return pref === "light" || pref === "dark";
+    } catch (e) {
+      return false;
+    }
+  }
+
+  function applySystemTheme() {
+    if (hasSessionPref()) return;
+    document.documentElement.dataset.theme = mq.matches ? "dark" : "light";
+  }
+
+  function initThemeToggle() {
+    var btn = document.getElementById("theme-toggle");
+    if (!btn) return;
+    var newBtn = btn.cloneNode(true);
+    btn.parentNode.replaceChild(newBtn, btn);
+    newBtn.addEventListener("click", function () {
+      var html = document.documentElement;
+      var next = html.dataset.theme === "dark" ? "light" : "dark";
+      html.dataset.theme = next;
+      try {
+        sessionStorage.setItem(PREF_KEY, next);
+      } catch (e) {}
+    });
+  }
+
+  if (typeof mq.addEventListener === "function") {
+    mq.addEventListener("change", applySystemTheme);
+  } else if (typeof mq.addListener === "function") {
+    mq.addListener(applySystemTheme);
+  }
+
+  /* extend_footer runs before PaperMod's theme-toggle script; defer to replace that handler */
+  setTimeout(initThemeToggle, 0);
+})();
 </script>

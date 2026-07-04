@@ -6,6 +6,7 @@ featured: false
 cover:
     image: "/assets/images/projects/active.jpg"
     style: "logo"
+    logoWide: true
     alt: "Active Network FES platform"
     relative: false
 ---

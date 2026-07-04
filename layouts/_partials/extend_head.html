@@ -1,5 +1,28 @@
 {{- partial "seo.html" . }}
 
+<script>
+(function () {
+  var PREF_KEY = "pref-theme";
+  try {
+    localStorage.removeItem(PREF_KEY);
+  } catch (e) {}
+
+  var html = document.documentElement;
+  var pref = null;
+  try {
+    pref = sessionStorage.getItem(PREF_KEY);
+  } catch (e) {}
+
+  if (pref === "light" || pref === "dark") {
+    html.dataset.theme = pref;
+  } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+    html.dataset.theme = "dark";
+  } else {
+    html.dataset.theme = "light";
+  }
+})();
+</script>
+
 {{- if .IsHome }}
 <script>
 (function () {

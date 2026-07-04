@@ -6,6 +6,7 @@ featured: false
 cover:
     image: "/assets/images/projects/active.jpg"
     style: "logo"
+    logoWide: true
     alt: "Active 基础服务引擎"
     relative: false
 ---

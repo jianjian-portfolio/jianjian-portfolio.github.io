@@ -1,5 +1,6 @@
 {{- if eq (.Param "cover.style") "logo" -}}
+{{- $wide := .Param "cover.logoWide" -}}
 {{- with .Param "cover.image" -}}
-<img class="project-title-row__logo" src="{{ . | relURL }}" alt="{{ $.Param "cover.alt" | default $.Title }}" loading="eager">
+<img class="project-title-row__logo{{ if $wide }} project-title-row__logo--wide{{ end }}" src="{{ . | relURL }}" alt="{{ $.Param "cover.alt" | default $.Title }}" loading="eager">
 {{- end -}}
 {{- end -}}

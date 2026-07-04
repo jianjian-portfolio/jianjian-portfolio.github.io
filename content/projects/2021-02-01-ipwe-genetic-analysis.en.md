@@ -6,6 +6,7 @@ featured: false
 cover:
     image: "/assets/images/projects/ipwe.jpeg"
     style: "logo"
+    logoWide: true
     alt: "Project Cover"
     relative: false
 ---

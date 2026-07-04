@@ -20,7 +20,7 @@ outputs = ["HTML", "RSS", "JSON"]
 
 [params]
     env = "production"
-    defaultTheme = "dark"
+    defaultTheme = "auto"
     disableThemeToggle = false
     showShareButtons = false
     showCodeCopyButtons = true
