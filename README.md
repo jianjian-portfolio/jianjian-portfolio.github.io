@@ -56,7 +56,7 @@ layouts/
 assets/css/extended/custom.css     PaperMod style extensions
 static/
   robots.txt                       Crawler rules + sitemap URL
-  assets/images/                   Photos, project images, certificates, chronicle proofs
+  assets/images/                   Photos, project images, certificates, career path proofs
   assets/favicon/                  Favicons and PWA icons
 themes/PaperMod/                   Theme submodule (see .gitmodules)
 hugo.toml                          Site config (languages, menus, SEO, analytics)
@@ -119,6 +119,6 @@ Pushes to **`master`** trigger `.github/workflows/hugo-pages.yml`, which:
 
 © 2026 Jian Jian. All rights reserved.
 
-This repository and site content (text, images, certificates, chronicle materials) are personal portfolio materials. No permission is granted to copy, republish, or reuse them without prior written consent.
+This repository and site content (text, images, certificates, career path materials) are personal portfolio materials. No permission is granted to copy, republish, or reuse them without prior written consent.
 
 **Third-party components:** [PaperMod](https://github.com/adityatelange/hugo-PaperMod) is used as a git submodule under its own [MIT license](https://github.com/adityatelange/hugo-PaperMod/blob/master/LICENSE). That license applies to the theme only, not to this site's content.

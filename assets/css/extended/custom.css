@@ -1068,15 +1068,15 @@
   filter: brightness(1.1);
 }
 
-/* --- Chronicle & Credentials Custom Styling --- */
-.chronicle-timeline {
+/* --- Career Path & Credentials Custom Styling --- */
+.career-path-timeline {
   position: relative;
   margin: 30px 0;
   padding-left: 20px;
 }
 
 /* Single continuous vertical line */
-.chronicle-timeline::before {
+.career-path-timeline::before {
   content: "";
   position: absolute;
   left: 9px;
@@ -1088,18 +1088,18 @@
 }
 
 /* Year Section Wrapper */
-.chronicle-year-section {
+.career-path-year-section {
   position: relative;
   margin-bottom: 45px;
   z-index: 2;
 }
 
-.chronicle-year-section:last-child {
+.career-path-year-section:last-child {
   margin-bottom: 0;
 }
 
 /* Year Header Badge (e.g. 2008) */
-.chronicle-year-header {
+.career-path-year-header {
   font-size: 1.25rem;
   font-weight: 800;
   color: var(--primary);
@@ -1116,18 +1116,18 @@
 }
 
 /* Individual Milestone Item inside a Year */
-.chronicle-item {
+.career-path-item {
   position: relative;
   padding-left: 28px;
   margin-bottom: 28px;
 }
 
-.chronicle-item:last-child {
+.career-path-item:last-child {
   margin-bottom: 0;
 }
 
 /* Milestone sub-dot (hollow ring) on the timeline line */
-.chronicle-item::before {
+.career-path-item::before {
   content: "";
   position: absolute;
   left: -14px; /* Centers dot on the main line */
@@ -1140,7 +1140,7 @@
   z-index: 3;
 }
 
-.chronicle-header {
+.career-path-header {
   display: flex;
   align-items: center;
   gap: 12px;
@@ -1148,7 +1148,7 @@
 }
 
 /* Month Badge (Translucent Stripe-style) */
-.chronicle-month {
+.career-path-month {
   background: rgba(2, 119, 189, 0.08);
   color: var(--diagram-accent);
   border: 1px solid rgba(2, 119, 189, 0.2);
@@ -1159,19 +1159,19 @@
   white-space: nowrap;
 }
 
-.dark .chronicle-month {
+.dark .career-path-month {
   background: rgba(102, 204, 255, 0.12);
   border-color: rgba(102, 204, 255, 0.2);
 }
 
-.chronicle-title {
+.career-path-title {
   font-size: 1.1rem;
   font-weight: 600;
   margin: 0;
   color: var(--primary);
 }
 
-.chronicle-desc {
+.career-path-desc {
   font-size: 0.9rem;
   line-height: 1.5;
   color: var(--secondary);

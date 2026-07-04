@@ -1,6 +1,6 @@
 ---
 title: "Career Journey"
-description: "17-year career chronicle from enterprise systems engineering to applied ML research, with verified credentials and expandable proof documents."
+description: "17-year career path from enterprise systems engineering to applied ML research, with verified credentials and expandable proof documents."
 sitemap:
   priority: 0.8
 aliases:
@@ -10,54 +10,54 @@ aliases:
 
 <div class="wide-page-container"></div>
 
-The chronicle below traces a 17-year professional path from non-technical beginnings through enterprise systems engineering to applied machine learning research, alongside verified technical credentials.
+The path below traces a 17-year professional journey from non-technical beginnings through enterprise systems engineering to applied machine learning research, alongside verified technical credentials.
 
 ---
 
-## 1. Career Chronicle
+## 1. Career Path
 
-<div class="chronicle-timeline">
+<div class="career-path-timeline">
 <!-- 2008 Section -->
-<div class="chronicle-year-section">
-<div class="chronicle-year-header">2008</div>
-<div class="chronicle-item">
-<div class="chronicle-header">
-<span class="chronicle-month">Mar</span>
-<h3 class="chronicle-title">Early Beginnings: Non-IT Foundation</h3>
+<div class="career-path-year-section">
+<div class="career-path-year-header">2008</div>
+<div class="career-path-item">
+<div class="career-path-header">
+<span class="career-path-month">Mar</span>
+<h3 class="career-path-title">Early Beginnings: Non-IT Foundation</h3>
 </div>
-<p class="chronicle-desc">Built early experience in client communication and business operations in the life insurance industry, laying groundwork for a later transition into software engineering.</p>
+<p class="career-path-desc">Built early experience in client communication and business operations in the life insurance industry, laying groundwork for a later transition into software engineering.</p>
 <details class="premium-details">
-<summary class="premium-summary"><span>🔍 View Chronicle Proof</span></summary>
+<summary class="premium-summary"><span>🔍 Expand to View</span></summary>
 <div class="premium-content">
-<img src="/assets/images/chronicle/2008_insurance_card.jpg" alt="2008 Life Insurance Agent License Card" />
+<img src="/assets/images/career-path/2008_insurance_card.jpg" alt="2008 Life Insurance Agent License Card" />
 </div>
 </details>
 </div>
-<div class="chronicle-item">
-<div class="chronicle-header">
-<span class="chronicle-month">Nov</span>
-<h3 class="chronicle-title">The Pivot: First IT Software Role</h3>
+<div class="career-path-item">
+<div class="career-path-header">
+<span class="career-path-month">Nov</span>
+<h3 class="career-path-title">The Pivot: First IT Software Role</h3>
 </div>
-<p class="chronicle-desc">Joined a software development role in November 2008 at 1,000 RMB/month (approx. $143 USD/month), transitioning from a non-IT background with minimal prior programming experience.</p>
+<p class="career-path-desc">Joined a software development role in November 2008 at 1,000 RMB/month (approx. $143 USD/month), transitioning from a non-IT background with minimal prior programming experience.</p>
 <details class="premium-details">
-<summary class="premium-summary"><span>🔍 View Chronicle Proof</span></summary>
+<summary class="premium-summary"><span>🔍 Expand to View</span></summary>
 <div class="premium-content">
-<img src="/assets/images/chronicle/2008_first_salary.jpg" alt="2008 First IT Pay Slip" />
+<img src="/assets/images/career-path/2008_first_salary.jpg" alt="2008 First IT Pay Slip" />
 </div>
 </details>
 </div>
 </div>
 <!-- 2009 Section -->
-<div class="chronicle-year-section">
-<div class="chronicle-year-header">2009</div>
-<div class="chronicle-item">
-<div class="chronicle-header">
-<span class="chronicle-month">Sep</span>
-<h3 class="chronicle-title">Professional Validation: Java Certification (SCJP)</h3>
+<div class="career-path-year-section">
+<div class="career-path-year-header">2009</div>
+<div class="career-path-item">
+<div class="career-path-header">
+<span class="career-path-month">Sep</span>
+<h3 class="career-path-title">Professional Validation: Java Certification (SCJP)</h3>
 </div>
-<p class="chronicle-desc">Passed the Sun Microsystems Certified Java Programmer (SCJP) exam, establishing systematic engineering foundations in object-oriented programming (OOP) and JVM memory management.</p>
+<p class="career-path-desc">Passed the Sun Microsystems Certified Java Programmer (SCJP) exam, establishing systematic engineering foundations in object-oriented programming (OOP) and JVM memory management.</p>
 <details class="premium-details">
-<summary class="premium-summary"><span>🔍 View Chronicle Proof</span></summary>
+<summary class="premium-summary"><span>🔍 Expand to View</span></summary>
 <div class="premium-content">
 <img src="/assets/images/certificates/SCJP-certification.jpg" alt="SCJP Certificate" />
 </div>
@@ -65,50 +65,50 @@ The chronicle below traces a 17-year professional path from non-technical beginn
 </div>
 </div>
 <!-- 2010 Section -->
-<div class="chronicle-year-section">
-<div class="chronicle-year-header">2010</div>
-<div class="chronicle-item">
-<div class="chronicle-header">
-<span class="chronicle-month">Apr</span>
-<h3 class="chronicle-title">Enterprise Growth: Software Engineer at NEC</h3>
+<div class="career-path-year-section">
+<div class="career-path-year-header">2010</div>
+<div class="career-path-item">
+<div class="career-path-header">
+<span class="career-path-month">Apr</span>
+<h3 class="career-path-title">Enterprise Growth: Software Engineer at NEC</h3>
 </div>
-<p class="chronicle-desc">Joined NEC in April 2010, tuning database clusters, developing server heartbeat cluster health monitoring systems, and standardizing enterprise software lifecycle development processes.</p>
+<p class="career-path-desc">Joined NEC in April 2010, tuning database clusters, developing server heartbeat cluster health monitoring systems, and standardizing enterprise software lifecycle development processes.</p>
 <details class="premium-details">
-<summary class="premium-summary"><span>🔍 View Chronicle Proof</span></summary>
+<summary class="premium-summary"><span>🔍 Expand to View</span></summary>
 <div class="premium-content">
-<img src="/assets/images/chronicle/2010_nec_office.jpg" alt="NEC Office Team Photo" />
+<img src="/assets/images/career-path/2010_nec_office.jpg" alt="NEC Office Team Photo" />
 </div>
 </details>
 </div>
 </div>
 <!-- 2011 Section -->
-<div class="chronicle-year-section">
-<div class="chronicle-year-header">2011</div>
-<div class="chronicle-item">
-<div class="chronicle-header">
-<span class="chronicle-month">Mar</span>
-<h3 class="chronicle-title">Global Perspective: Systems Integration at NCS Group</h3>
+<div class="career-path-year-section">
+<div class="career-path-year-header">2011</div>
+<div class="career-path-item">
+<div class="career-path-header">
+<span class="career-path-month">Mar</span>
+<h3 class="career-path-title">Global Perspective: Systems Integration at NCS Group</h3>
 </div>
-<p class="chronicle-desc">Joined NCS Group in March 2011, designing and delivering core public-sector systems (such as the BVI financial services official e-filing system). In 2012, relocated to NCS Singapore headquarters as a senior engineer on expatriate assignment, leading medical and financial settlement platform builds and deploying highly available e-signature components.</p>
+<p class="career-path-desc">Joined NCS Group in March 2011, designing and delivering core public-sector systems (such as the BVI financial services official e-filing system). In 2012, relocated to NCS Singapore headquarters as a senior engineer on expatriate assignment, leading medical and financial settlement platform builds and deploying highly available e-signature components.</p>
 <details class="premium-details">
-<summary class="premium-summary"><span>🔍 View Chronicle Proof</span></summary>
+<summary class="premium-summary"><span>🔍 Expand to View</span></summary>
 <div class="premium-content">
-<img src="/assets/images/chronicle/2015_singapore_pass.jpg" alt="Singapore S Pass Work Card" />
+<img src="/assets/images/career-path/2015_singapore_pass.jpg" alt="Singapore S Pass Work Card" />
 </div>
 </details>
 </div>
 </div>
 <!-- 2016 Section -->
-<div class="chronicle-year-section">
-<div class="chronicle-year-header">2016</div>
-<div class="chronicle-item">
-<div class="chronicle-header">
-<span class="chronicle-month">Jan</span>
-<h3 class="chronicle-title">Enterprise Scaling: Senior Java Software Engineer at Active Network</h3>
+<div class="career-path-year-section">
+<div class="career-path-year-header">2016</div>
+<div class="career-path-item">
+<div class="career-path-header">
+<span class="career-path-month">Jan</span>
+<h3 class="career-path-title">Enterprise Scaling: Senior Java Software Engineer at Active Network</h3>
 </div>
-<p class="chronicle-desc">Led refactoring of underlying file storage and email (FES) microservices and optimized high-concurrency e-commerce service interfaces. Designed token-bucket rate limiting and adopted MongoDB Change Streams, raising system throughput to 300 TPS and significantly reducing downstream service pressure during peak sales periods.</p>
+<p class="career-path-desc">Led refactoring of underlying file storage and email (FES) microservices and optimized high-concurrency e-commerce service interfaces. Designed token-bucket rate limiting and adopted MongoDB Change Streams, raising system throughput to 300 TPS and significantly reducing downstream service pressure during peak sales periods.</p>
 <details class="premium-details">
-<summary class="premium-summary"><span>🔍 View Chronicle Proof</span></summary>
+<summary class="premium-summary"><span>🔍 Expand to View</span></summary>
 <div class="premium-content">
 <img src="/assets/images/projects/active.jpg" alt="Active Network Logo" />
 </div>
@@ -116,16 +116,16 @@ The chronicle below traces a 17-year professional path from non-technical beginn
 </div>
 </div>
 <!-- 2019 Section -->
-<div class="chronicle-year-section">
-<div class="chronicle-year-header">2019</div>
-<div class="chronicle-item">
-<div class="chronicle-header">
-<span class="chronicle-month">Jul</span>
-<h3 class="chronicle-title">Transition to AI: Stanford CPD Data Science</h3>
+<div class="career-path-year-section">
+<div class="career-path-year-header">2019</div>
+<div class="career-path-item">
+<div class="career-path-header">
+<span class="career-path-month">Jul</span>
+<h3 class="career-path-title">Transition to AI: Stanford CPD Data Science</h3>
 </div>
-<p class="chronicle-desc">In 2019, completed a career pivot to machine learning and data science, finishing the Stanford Center for Professional Development (Stanford CPD) data science curriculum and bridging statistical research with large-scale engineering deployment.</p>
+<p class="career-path-desc">In 2019, completed a career pivot to machine learning and data science, finishing the Stanford Center for Professional Development (Stanford CPD) data science curriculum and bridging statistical research with large-scale engineering deployment.</p>
 <details class="premium-details">
-<summary class="premium-summary"><span>🔍 View Chronicle Proof</span></summary>
+<summary class="premium-summary"><span>🔍 Expand to View</span></summary>
 <div class="premium-content">
 <img src="/assets/images/certificates/Data science-Stanford.jpg" alt="Stanford CPD Data Science Certificate" />
 </div>
@@ -133,59 +133,59 @@ The chronicle below traces a 17-year professional path from non-technical beginn
 </div>
 </div>
 <!-- 2020 Section -->
-<div class="chronicle-year-section">
-<div class="chronicle-year-header">2020</div>
-<div class="chronicle-item">
-<div class="chronicle-header">
-<span class="chronicle-month">Jan</span>
-<h3 class="chronicle-title">Academic Integration: Graduate Researcher at SU</h3>
+<div class="career-path-year-section">
+<div class="career-path-year-header">2020</div>
+<div class="career-path-item">
+<div class="career-path-header">
+<span class="career-path-month">Jan</span>
+<h3 class="career-path-title">Academic Integration: Graduate Researcher at SU</h3>
 </div>
-<p class="chronicle-desc">Entered Syracuse University for graduate study and was concurrently appointed Graduate Researcher on U.S. Office of Research Integrity (ORI)–funded grants for academic image fraud detection research.</p>
+<p class="career-path-desc">Entered Syracuse University for graduate study and was concurrently appointed Graduate Researcher on U.S. Office of Research Integrity (ORI)–funded grants for academic image fraud detection research.</p>
 <details class="premium-details">
-<summary class="premium-summary"><span>🔍 View Chronicle Proof</span></summary>
+<summary class="premium-summary"><span>🔍 Expand to View</span></summary>
 <div class="premium-content">
-<img src="/assets/images/chronicle/2020_syracuse_id.jpg" alt="Syracuse University Faculty/Staff Card" />
+<img src="/assets/images/career-path/2020_syracuse_id.jpg" alt="Syracuse University Faculty/Staff Card" />
 </div>
 </details>
 </div>
 </div>
 <!-- 2021 Section -->
-<div class="chronicle-year-section">
-<div class="chronicle-year-header">2021</div>
-<div class="chronicle-item">
-<div class="chronicle-header">
-<span class="chronicle-month">Feb</span>
-<h3 class="chronicle-title">Research-to-Product Transition: Project Technical Lead at IPwe, Inc.</h3>
+<div class="career-path-year-section">
+<div class="career-path-year-header">2021</div>
+<div class="career-path-item">
+<div class="career-path-header">
+<span class="career-path-month">Feb</span>
+<h3 class="career-path-title">Research-to-Product Transition: Project Technical Lead at IPwe, Inc.</h3>
 </div>
-<p class="chronicle-desc">Joined IPwe in February 2021 during the final semester of the M.S. program, leading a proof-of-concept knowledge graph for life-sciences patent literature and using NLP to extract genetic sequence information from patent text—bridging academic research with IP analytics and enterprise data engineering deployment.</p>
+<p class="career-path-desc">Joined IPwe in February 2021 during the final semester of the M.S. program, leading a proof-of-concept knowledge graph for life-sciences patent literature and using NLP to extract genetic sequence information from patent text—bridging academic research with IP analytics and enterprise data engineering deployment.</p>
 <details class="premium-details">
-<summary class="premium-summary"><span>🔍 View Chronicle Proof</span></summary>
+<summary class="premium-summary"><span>🔍 Expand to View</span></summary>
 <div class="premium-content">
 <img src="/assets/images/leadership/IPwe_Recomm_Jian.jpg" alt="Recommendation letter from IPwe, Inc. (Jonas Block, Head of AI Development)" />
 </div>
 </details>
 </div>
-<div class="chronicle-item">
-<div class="chronicle-header">
-<span class="chronicle-month">May</span>
-<h3 class="chronicle-title">Academic Milestone: Master's Graduation</h3>
+<div class="career-path-item">
+<div class="career-path-header">
+<span class="career-path-month">May</span>
+<h3 class="career-path-title">Academic Milestone: Master's Graduation</h3>
 </div>
-<p class="chronicle-desc">Earned the Master of Science in Applied Data Science with a 4.0 GPA and co-authored a publication in a Nature portfolio journal.</p>
+<p class="career-path-desc">Earned the Master of Science in Applied Data Science with a 4.0 GPA and co-authored a publication in a Nature portfolio journal.</p>
 <details class="premium-details">
-<summary class="premium-summary"><span>🔍 View Chronicle Proof</span></summary>
+<summary class="premium-summary"><span>🔍 Expand to View</span></summary>
 <div class="premium-content">
-<img src="/assets/images/chronicle/2021_syracuse_grad.jpg" alt="Syracuse University Graduation Ceremony" />
+<img src="/assets/images/career-path/2021_syracuse_grad.jpg" alt="Syracuse University Graduation Ceremony" />
 </div>
 </details>
 </div>
-<div class="chronicle-item">
-<div class="chronicle-header">
-<span class="chronicle-month">Oct</span>
-<h3 class="chronicle-title">Applied AI in Production: Data Scientist at DeepCell</h3>
+<div class="career-path-item">
+<div class="career-path-header">
+<span class="career-path-month">Oct</span>
+<h3 class="career-path-title">Applied AI in Production: Data Scientist at DeepCell</h3>
 </div>
-<p class="chronicle-desc">Joined Deepcell in October 2021 after M.S. graduation, building a high-throughput cell morphology classification and inference platform spanning TPU distributed training, PyTorch graph compilation, TensorRT INT8 quantized inference, Triton inference serving, and terminal UMAP 2D projection display.</p>
+<p class="career-path-desc">Joined Deepcell in October 2021 after M.S. graduation, building a high-throughput cell morphology classification and inference platform spanning TPU distributed training, PyTorch graph compilation, TensorRT INT8 quantized inference, Triton inference serving, and terminal UMAP 2D projection display.</p>
 <details class="premium-details">
-<summary class="premium-summary"><span>🔍 View Chronicle Proof</span></summary>
+<summary class="premium-summary"><span>🔍 Expand to View</span></summary>
 <div class="premium-content">
 <img src="/assets/images/projects/deepcell-ui.jpeg" alt="DeepCell AI Platform UI" />
 </div>
@@ -193,16 +193,16 @@ The chronicle below traces a 17-year professional path from non-technical beginn
 </div>
 </div>
 <!-- 2023 Section -->
-<div class="chronicle-year-section">
-<div class="chronicle-year-header">2023</div>
-<div class="chronicle-item">
-<div class="chronicle-header">
-<span class="chronicle-month">Jun</span>
-<h3 class="chronicle-title">Staff Applied Scientist at NetApp</h3>
+<div class="career-path-year-section">
+<div class="career-path-year-header">2023</div>
+<div class="career-path-item">
+<div class="career-path-header">
+<span class="career-path-month">Jun</span>
+<h3 class="career-path-title">Staff Applied Scientist at NetApp</h3>
 </div>
-<p class="chronicle-desc">Joined NetApp's core AI &amp; ML R&amp;D team in June 2023, leading research-to-production delivery of the ONTAP Autonomous Ransomware Protection (ARP) engine and co-designing multiple patented deep learning and graph-vector analytics architectures.</p>
+<p class="career-path-desc">Joined NetApp's core AI &amp; ML R&amp;D team in June 2023, leading research-to-production delivery of the ONTAP Autonomous Ransomware Protection (ARP) engine and co-designing multiple patented deep learning and graph-vector analytics architectures.</p>
 <details class="premium-details">
-<summary class="premium-summary"><span>🔍 View Chronicle Proof</span></summary>
+<summary class="premium-summary"><span>🔍 Expand to View</span></summary>
 <div class="premium-content">
 <img src="/assets/images/projects/netapp_logo.avif" alt="NetApp Logo" />
 </div>
@@ -210,14 +210,14 @@ The chronicle below traces a 17-year professional path from non-technical beginn
 </div>
 </div>
 <!-- 2024 Section -->
-<div class="chronicle-year-section">
-<div class="chronicle-year-header">2024</div>
-<div class="chronicle-item">
-<div class="chronicle-header">
-<span class="chronicle-month">Oct</span>
-<h3 class="chronicle-title">Graduate Study Loans Fully Repaid</h3>
+<div class="career-path-year-section">
+<div class="career-path-year-header">2024</div>
+<div class="career-path-item">
+<div class="career-path-header">
+<span class="career-path-month">Oct</span>
+<h3 class="career-path-title">Graduate Study Loans Fully Repaid</h3>
 </div>
-<p class="chronicle-desc">After M.S. graduation in 2021, completed early payoff on all three U.S. graduate study loans between 2023 and 2024, with the final payment in October 2024—all ahead of the original repayment schedule.</p>
+<p class="career-path-desc">After M.S. graduation in 2021, completed early payoff on all three U.S. graduate study loans between 2023 and 2024, with the final payment in October 2024—all ahead of the original repayment schedule.</p>
 </div>
 </div>
 </div>
