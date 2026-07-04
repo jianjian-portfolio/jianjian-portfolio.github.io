@@ -1,0 +1,196 @@
+<div id="project-modal" class="project-modal" hidden role="dialog" aria-modal="true" aria-label="{{ if eq .Lang "zh" }}项目详情{{ else }}Project details{{ end }}">
+  <div class="project-modal-panel" role="document">
+    <div class="project-modal-titlebar" hidden>
+      <div class="project-modal-titlebar-inner"></div>
+    </div>
+    <button type="button" class="project-modal-close" aria-label="{{ if eq .Lang "zh" }}关闭{{ else }}Close{{ end }}">&times;</button>
+    <div class="project-modal-body">
+      <p class="project-modal-loading">
+        {{- if eq .Lang "zh" -}}加载中…{{- else -}}Loading…{{- end -}}
+      </p>
+      <div class="project-modal-content post-single" hidden></div>
+    </div>
+  </div>
+</div>
+<script>
+(function () {
+  var modal = document.getElementById("project-modal");
+  if (!modal) return;
+
+  var titlebar = modal.querySelector(".project-modal-titlebar");
+  var titlebarInner = modal.querySelector(".project-modal-titlebar-inner");
+  var loadingEl = modal.querySelector(".project-modal-loading");
+  var contentEl = modal.querySelector(".project-modal-content");
+  var closeBtn = modal.querySelector(".project-modal-close");
+  var panel = modal.querySelector(".project-modal-panel");
+  var modalBody = modal.querySelector(".project-modal-body");
+  var cache = Object.create(null);
+  var activeTrigger = null;
+  var scrollLockY = 0;
+  var backdropPointerDown = false;
+
+  var katexOpts = {
+    delimiters: [
+      { left: "$$", right: "$$", display: true },
+      { left: "$", right: "$", display: false },
+      { left: "\\(", right: "\\)", display: false },
+      { left: "\\[", right: "\\]", display: true }
+    ],
+    throwOnError: false
+  };
+
+  function setOpen(isOpen) {
+    modal.hidden = !isOpen;
+    document.documentElement.classList.toggle("project-modal-open", isOpen);
+    document.body.classList.toggle("project-modal-open", isOpen);
+    if (isOpen) {
+      scrollLockY = window.scrollY || document.documentElement.scrollTop || 0;
+      document.body.style.position = "fixed";
+      document.body.style.top = "-" + scrollLockY + "px";
+      document.body.style.left = "0";
+      document.body.style.right = "0";
+      document.body.style.width = "100%";
+    } else {
+      document.body.style.position = "";
+      document.body.style.top = "";
+      document.body.style.left = "";
+      document.body.style.right = "";
+      document.body.style.width = "";
+      window.scrollTo(0, scrollLockY);
+    }
+  }
+
+  function renderMath(root) {
+    if (typeof renderMathInElement === "function") {
+      renderMathInElement(root, katexOpts);
+    }
+  }
+
+  function resetTitlebar() {
+    titlebarInner.innerHTML = "";
+    titlebar.hidden = true;
+  }
+
+  function injectArticle(html) {
+    var doc = new DOMParser().parseFromString(html, "text/html");
+    var article = doc.querySelector("article.post-single");
+    contentEl.innerHTML = "";
+    contentEl.hidden = true;
+    resetTitlebar();
+    if (!article) {
+      loadingEl.textContent = "Unable to load project content.";
+      return;
+    }
+    var clone = article.cloneNode(true);
+    clone.querySelector(".post-footer")?.remove();
+    clone.querySelector(".breadcrumbs")?.remove();
+    clone.querySelector(".post-meta")?.remove();
+
+    var header = clone.querySelector(".post-header");
+    if (header) {
+      titlebarInner.appendChild(header);
+      titlebar.hidden = false;
+    }
+
+    contentEl.appendChild(clone);
+    loadingEl.hidden = true;
+    contentEl.hidden = false;
+    renderMath(modal);
+  }
+
+  function openModal(trigger) {
+    var url = trigger.getAttribute("data-project-url") || trigger.getAttribute("href");
+    if (!url) return;
+
+    activeTrigger = trigger;
+    contentEl.innerHTML = "";
+    contentEl.hidden = true;
+    resetTitlebar();
+    loadingEl.hidden = false;
+    loadingEl.textContent = loadingEl.getAttribute("data-default-text") || loadingEl.textContent;
+    setOpen(true);
+    closeBtn.focus();
+
+    if (cache[url]) {
+      injectArticle(cache[url]);
+      return;
+    }
+
+    fetch(url, { credentials: "same-origin" })
+      .then(function (res) {
+        if (!res.ok) throw new Error("fetch failed");
+        return res.text();
+      })
+      .then(function (html) {
+        cache[url] = html;
+        injectArticle(html);
+      })
+      .catch(function () {
+        window.location.href = url;
+      });
+  }
+
+  function closeModal() {
+    backdropPointerDown = false;
+    setOpen(false);
+    contentEl.innerHTML = "";
+    contentEl.hidden = true;
+    resetTitlebar();
+    loadingEl.hidden = false;
+    if (activeTrigger) activeTrigger.focus();
+    activeTrigger = null;
+  }
+
+  loadingEl.setAttribute("data-default-text", loadingEl.textContent);
+
+  document.querySelectorAll(".project-modal-trigger").forEach(function (trigger) {
+    trigger.addEventListener("click", function (e) {
+      if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button !== 0) return;
+      e.preventDefault();
+      openModal(trigger);
+    });
+  });
+
+  closeBtn.addEventListener("click", closeModal);
+
+  modal.addEventListener("pointerdown", function (e) {
+    if (e.button !== 0) return;
+    backdropPointerDown = e.target === modal;
+  });
+
+  modal.addEventListener("pointercancel", function () {
+    backdropPointerDown = false;
+  });
+
+  document.addEventListener("pointerup", function (e) {
+    if (modal.hidden || e.button !== 0) return;
+    if (!backdropPointerDown) return;
+    if (!panel.contains(e.target)) {
+      closeModal();
+    }
+    backdropPointerDown = false;
+  });
+
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape" && !modal.hidden) closeModal();
+  });
+
+  modal.addEventListener("wheel", function (e) {
+    if (modal.hidden || !modalBody) return;
+
+    var maxScroll = modalBody.scrollHeight - modalBody.clientHeight;
+    if (maxScroll <= 0) return;
+
+    if (modalBody.contains(e.target)) {
+      var atTop = modalBody.scrollTop <= 0;
+      var atBottom = modalBody.scrollTop >= maxScroll - 1;
+      if ((e.deltaY < 0 && !atTop) || (e.deltaY > 0 && !atBottom)) {
+        return;
+      }
+    }
+
+    e.preventDefault();
+    modalBody.scrollTop = Math.max(0, Math.min(maxScroll, modalBody.scrollTop + e.deltaY));
+  }, { passive: false });
+})();
+</script>

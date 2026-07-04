@@ -1,0 +1,19 @@
+{{- $title := .Title -}}
+{{- $main := $title -}}
+{{- $sub := "" -}}
+{{- if .Param "titleMultiline" -}}
+  {{- if strings.Contains $title "：" -}}
+    {{- $parts := split $title "：" -}}
+    {{- $main = index $parts 0 -}}
+    {{- $sub = strings.TrimSpace (delimit (after 1 $parts) "：") -}}
+  {{- else if strings.Contains $title ": " -}}
+    {{- $parts := split $title ": " -}}
+    {{- $main = index $parts 0 -}}
+    {{- $sub = strings.TrimSpace (delimit (after 1 $parts) ": ") -}}
+  {{- end -}}
+{{- end -}}
+{{- if $sub -}}
+<span class="project-title-main">{{ $main }}</span><span class="project-title-sub">{{ $sub }}</span>
+{{- else -}}
+{{ $title }}
+{{- end -}}
