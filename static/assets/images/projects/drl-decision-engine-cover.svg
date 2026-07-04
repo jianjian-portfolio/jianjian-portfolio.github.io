@@ -103,8 +103,8 @@
 
   <!-- Distributed training badge -->
   <rect x="24" y="24" width="132" height="56" rx="8" fill="#111827" stroke="#334155" stroke-width="1"/>
-  <text x="40" y="46" fill="#94a3b8" font-family="sans-serif" font-size="9" font-weight="600">DISTRIBUTED TRAIN</text>
-  <text x="40" y="64" fill="#e2e8f0" font-family="sans-serif" font-size="9">Ray / DDP / DeepSpeed</text>
+  <text x="40" y="46" fill="#94a3b8" font-family="sans-serif" font-size="9" font-weight="600">RAY JOB</text>
+  <text x="40" y="64" fill="#e2e8f0" font-family="sans-serif" font-size="9">Ray Job · DDP · DeepSpeed</text>
 
   <text x="400" y="430" fill="#64748b" font-family="sans-serif" font-size="11" text-anchor="middle" letter-spacing="0.12em">CLOUD DECISION PLATFORM · STEALTH PILOT</text>
 </svg>

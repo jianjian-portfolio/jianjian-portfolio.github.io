@@ -16,7 +16,7 @@ cover:
 
 Designed and developed a high-throughput **sequential decision engine** for a **cloud computing decision platform**, delivering real-time sequential decisions for resource provisioning and scheduling under high-throughput, high-frequency runtime workloads. This ongoing stealth pilot applies deep reinforcement learning at systems scale—bridging algorithm design, distributed GPU training, and safety-aware policy alignment.
 
-**Key Technologies:** PyTorch · Branching Dueling Q-Network (BDQ) · HF Accelerate · DeepSpeed · Ray Train/Serve · DDP · Preference Alignment
+**Key Technologies:** PyTorch · Branching Dueling Q-Network (BDQ) · HF Accelerate · DeepSpeed · Ray Job/Serve · DDP · Preference Alignment
 
 ---
 
@@ -101,7 +101,7 @@ The engine formulates provisioning and scheduling on the platform as a **Markov 
 
 ### 2. Distributed Training at Scale
 * **Multi-Node GPU Clusters**: Scaled training across multi-node GPU clusters using **Hugging Face Accelerate**, **Distributed Data Parallel (DDP)**, and **DeepSpeed (ZeRO-2)** to partition optimizer states and sustain high throughput on large replay batches.
-* **Ray Train / Ray Serve**: Orchestrated experiment sweeps and serving prototypes with **Ray Train** and **Ray Serve**, separating offline policy improvement from low-latency online inference paths during pilot evaluation.
+* **Ray Job / Ray Serve**: Orchestrated experiment sweeps and serving prototypes with **Ray Job** and **Ray Serve**, separating offline policy improvement from low-latency online inference paths during pilot evaluation.
 
 <div class="diagram-placeholder">
 <span class="diagram-title">[Figure 2: Distributed Training Topology]</span>
@@ -119,7 +119,7 @@ The engine formulates provisioning and scheduling on the platform as a **Markov 
 <line x1="249" y1="89" x2="345" y2="89" stroke="currentColor" stroke-opacity="0.35" stroke-width="1.2" stroke-dasharray="3 2"/>
 </g>
 <rect x="118" y="8" width="372" height="122" rx="10" fill="none" stroke="currentColor" stroke-opacity="0.25" stroke-width="1.2" stroke-dasharray="5 3"/>
-<text x="304" y="28" fill="currentColor" fill-opacity="0.7" text-anchor="middle" class="diagram-train-heading">Distributed Training Job (Ray Train)</text>
+<text x="304" y="28" fill="currentColor" fill-opacity="0.7" text-anchor="middle" class="diagram-train-heading">Distributed Training Job (Ray Job)</text>
 <line x1="290" y1="33" x2="290" y2="105" stroke="currentColor" stroke-opacity="0.15" stroke-width="1"/>
 <text x="204" y="37" fill="currentColor" fill-opacity="0.55" text-anchor="middle" class="diagram-train-node">Node 1</text>
 <text x="390" y="37" fill="currentColor" fill-opacity="0.55" text-anchor="middle" class="diagram-train-node">Node 2</text>
@@ -149,7 +149,7 @@ The engine formulates provisioning and scheduling on the platform as a **Markov 
 </g>
 </svg>
 </div>
-<p class="diagram-caption"><strong>Training stack (schematic):</strong> Ray Train schedules a multi-node job across GPU workers; within the same run, each worker executes PyTorch via Accelerate with DDP gradient synchronization and DeepSpeed ZeRO-2 optimizer-state sharding. Ray Serve (online inference) is a separate path and omitted here.</p>
+<p class="diagram-caption"><strong>Training stack (schematic):</strong> Ray Job schedules a multi-node job across GPU workers; within the same run, each worker executes PyTorch via Accelerate with DDP gradient synchronization and DeepSpeed ZeRO-2 optimizer-state sharding. Ray Serve (online inference) is a separate path and omitted here.</p>
 </div>
 
 ### 3. GPU-Resident Replay Buffer

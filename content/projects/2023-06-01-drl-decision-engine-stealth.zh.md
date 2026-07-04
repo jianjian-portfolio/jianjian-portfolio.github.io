@@ -16,7 +16,7 @@ cover:
 
 设计并开发了一套高吞吐**序贯决策引擎**，面向**云计算决策平台**，在极端、高频的运行时负载下提供资源供给与调度相关的实时序贯决策。该 Stealth Pilot 自 2023 年 6 月持续至今，在系统规模上落地深度强化学习——贯通算法设计、分布式 GPU 训练与性能约束下的策略对齐。
 
-**核心技术栈：** PyTorch · 分支对决 Q 网络（BDQ）· HF Accelerate · DeepSpeed · Ray Train/Serve · DDP · 偏好对齐（Preference Alignment）
+**核心技术栈：** PyTorch · 分支对决 Q 网络（BDQ）· HF Accelerate · DeepSpeed · Ray Job/Serve · DDP · 偏好对齐（Preference Alignment）
 
 ---
 
@@ -101,7 +101,7 @@ cover:
 
 ### 2. 大规模分布式训练
 * **多节点 GPU 集群**：通过 **Hugging Face Accelerate**、**分布式数据并行（DDP）** 与 **DeepSpeed（ZeRO-2）** 在多节点 GPU 上扩展训练，分区优化器状态以支撑大规模 replay batch。
-* **Ray Train / Ray Serve**：以 **Ray Train** 与 **Ray Serve** 编排实验与服务原型，在 pilot 评估中将离线策略优化与低延迟在线推理路径分离。
+* **Ray Job / Ray Serve**：以 **Ray Job** 与 **Ray Serve** 编排实验与服务原型，在 pilot 评估中将离线策略优化与低延迟在线推理路径分离。
 
 <div class="diagram-placeholder">
 <span class="diagram-title">[图 2: 分布式训练拓扑]</span>
@@ -119,7 +119,7 @@ cover:
 <line x1="249" y1="89" x2="345" y2="89" stroke="currentColor" stroke-opacity="0.35" stroke-width="1.2" stroke-dasharray="3 2"/>
 </g>
 <rect x="118" y="8" width="372" height="122" rx="10" fill="none" stroke="currentColor" stroke-opacity="0.25" stroke-width="1.2" stroke-dasharray="5 3"/>
-<text x="304" y="28" fill="currentColor" fill-opacity="0.7" text-anchor="middle" class="diagram-train-heading">分布式训练任务（Ray Train）</text>
+<text x="304" y="28" fill="currentColor" fill-opacity="0.7" text-anchor="middle" class="diagram-train-heading">分布式训练任务（Ray Job）</text>
 <line x1="290" y1="33" x2="290" y2="105" stroke="currentColor" stroke-opacity="0.15" stroke-width="1"/>
 <text x="204" y="37" fill="currentColor" fill-opacity="0.55" text-anchor="middle" class="diagram-train-node">节点 1</text>
 <text x="390" y="37" fill="currentColor" fill-opacity="0.55" text-anchor="middle" class="diagram-train-node">节点 2</text>
@@ -149,7 +149,7 @@ cover:
 </g>
 </svg>
 </div>
-<p class="diagram-caption"><strong>训练栈（示意）：</strong> Ray Train 调度跨节点的 GPU Worker；在同一训练任务内，各 Worker 通过 Accelerate 运行 PyTorch，以 DDP 同步梯度，并以 DeepSpeed ZeRO-2 分片优化器状态。Ray Serve（在线推理）为独立路径，此处未画出。</p>
+<p class="diagram-caption"><strong>训练栈（示意）：</strong> Ray Job 调度跨节点的 GPU Worker；在同一训练任务内，各 Worker 通过 Accelerate 运行 PyTorch，以 DDP 同步梯度，并以 DeepSpeed ZeRO-2 分片优化器状态。Ray Serve（在线推理）为独立路径，此处未画出。</p>
 </div>
 
 ### 3. GPU 驻留 Replay Buffer
