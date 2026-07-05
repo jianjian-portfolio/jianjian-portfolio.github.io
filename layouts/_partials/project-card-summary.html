@@ -1,0 +1,8 @@
+{{- $summary := printf "%s" .Summary -}}
+{{- $summary = replace $summary "https://github.com/sciosci/ImageAnnotatorJS</a>" "sciosci/ImageAnnotatorJS</a>" -}}
+{{- $inlineIcon := findRE `<svg[^>]*width="1em"` $summary -}}
+{{- if $inlineIcon -}}
+  <div class="project-card-summary project-card-summary--rich">{{ $summary | safeHTML }}{{ if .Truncated }}...{{ end }}</div>
+{{- else -}}
+  <p>{{ $summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
+{{- end -}}
