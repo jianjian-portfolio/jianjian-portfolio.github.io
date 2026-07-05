@@ -28,9 +28,9 @@ Applied AI is my daily work. Still, some of what matters most in that work depen
 <div class="career-path-item">
 <div class="career-path-header">
 <span class="career-path-month">Mar</span>
-<h3 class="career-path-title">Early Beginnings: Non-IT Foundation</h3>
+<h3 class="career-path-title">Early Career: Non-Technical Background</h3>
 </div>
-<p class="career-path-desc">Built early experience in client communication and business operations in the life insurance industry, laying groundwork for a later transition into software engineering.</p>
+<p class="career-path-desc">Built early experience in client communication and business operations in the financial services industry, laying the groundwork for a transition into software engineering.</p>
 <details class="premium-details">
 <summary class="premium-summary"><span>🔍 Expand to View</span></summary>
 <div class="premium-content">
@@ -92,7 +92,7 @@ Applied AI is my daily work. Still, some of what matters most in that work depen
 <div class="career-path-item">
 <div class="career-path-header">
 <span class="career-path-month">Mar</span>
-<h3 class="career-path-title">Global Perspective: Systems Integration at NCS Group</h3>
+<h3 class="career-path-title">Cross-Cultural Experience: Systems Integration at NCS Group</h3>
 </div>
 <p class="career-path-desc">Joined NCS Group in March 2011, designing and delivering core public-sector systems (such as the BVI financial services official e-filing system). In 2012, relocated to NCS Singapore headquarters as a senior engineer on expatriate assignment, leading medical and financial settlement platform builds and deploying highly available e-signature components.</p>
 <details class="premium-details">
@@ -109,7 +109,7 @@ Applied AI is my daily work. Still, some of what matters most in that work depen
 <div class="career-path-item">
 <div class="career-path-header">
 <span class="career-path-month">Jan</span>
-<h3 class="career-path-title">Enterprise Scaling: Senior Java Software Engineer at Active Network</h3>
+<h3 class="career-path-title">Enterprise Scaling: Senior Software Engineer at Active Network</h3>
 </div>
 <p class="career-path-desc">Led refactoring of underlying file storage and email (FES) microservices and optimized high-concurrency e-commerce service interfaces. Designed token-bucket rate limiting and adopted MongoDB Change Streams, raising system throughput to 300 TPS and significantly reducing downstream service pressure during peak sales periods.</p>
 <details class="premium-details">

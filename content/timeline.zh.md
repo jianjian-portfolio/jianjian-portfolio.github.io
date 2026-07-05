@@ -28,9 +28,9 @@ aliases:
 <div class="career-path-item">
 <div class="career-path-header">
 <span class="career-path-month">3月</span>
-<h3 class="career-path-title">职业起点：非 IT 基础</h3>
+<h3 class="career-path-title">职业起点：非技术背景</h3>
 </div>
-<p class="career-path-desc">在人寿保险行业积累早期客户沟通与商业运作经验，为后续跨界转入软件工程打下基础。</p>
+<p class="career-path-desc">在融服务行业积累早期客户沟通与业务运营经验，为后续跨界转入软件工程打下基础。</p>
 <details class="premium-details">
 <summary class="premium-summary"><span>🔍 点击展开</span></summary>
 <div class="premium-content">
@@ -109,7 +109,7 @@ aliases:
 <div class="career-path-item">
 <div class="career-path-header">
 <span class="career-path-month">1月</span>
-<h3 class="career-path-title">企业级扩展：活跃网络 (Active Network) 资深 Java 工程师</h3>
+<h3 class="career-path-title">企业级扩展：活跃网络 (Active Network) 资深软件研发工程师</h3>
 </div>
 <p class="career-path-desc">主导重构了底层文件存储与邮件发送（FES）微服务，并优化高并发电子商务服务接口。设计令牌桶限流算法并引入 MongoDB 变更流技术，将系统吞吐量提升至 300 TPS，显著降低了大促期间的下游服务压力。</p>
 <details class="premium-details">

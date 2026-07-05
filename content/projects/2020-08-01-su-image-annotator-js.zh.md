@@ -6,7 +6,7 @@ lastmod: 2026-07-04
 featured: false
 ---
 
-<i class="fab fa-fw fa-github" aria-hidden="true"></i> Github 🔧: [https://github.com/sciosci/ImageAnnotatorJS](https://github.com/sciosci/ImageAnnotatorJS)
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="1em" height="1em" style="vertical-align:-0.125em" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg> GitHub: [https://github.com/sciosci/ImageAnnotatorJS](https://github.com/sciosci/ImageAnnotatorJS)
 
 ImageAnnotatorJS 是一个模块化 JavaScript 库（AMD 标准），面向前端工程师构建网页端图像标注与审查系统。用户可在 HTML5 Canvas 上绘制并管理各类矢量标注形状，支撑学术图像检验、分析与研究数据采集。该项目部分开发经费来自美国卫生与公众服务部（HHS）下属研究诚信办公室（ORI），资助编号 ORIIIR190049 与 ORIIR180041。
 

@@ -39,7 +39,7 @@
         <h3 class="featured-project-title">{{ partial "project-title.html" . }}</h3>
       </header>
       <div class="featured-project-summary">
-        <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
+        {{- partial "project-card-summary.html" . -}}
       </div>
       <footer class="featured-project-footer">
         <span class="read-more-btn">
@@ -67,7 +67,7 @@
         <h4 class="legacy-project-title">{{ .Title }}{{- if eq (.Param "cover.style") "logo" }}{{ partial "project-logo-header.html" . }}{{ end }}</h4>
       </header>
       <div class="legacy-project-description">
-        <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
+        {{- partial "project-card-summary.html" . -}}
       </div>
       <div class="legacy-project-meta">
         <time>{{ .Date.Format "2006-01" }}</time>
