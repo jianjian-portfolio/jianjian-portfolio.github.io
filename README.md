@@ -84,6 +84,8 @@ hugo server
 - English: http://localhost:1313/
 - 中文: http://localhost:1313/zh/
 
+Local preview uses `config/development/hugo.toml`, so Google Analytics is disabled and visits are not counted. Production builds (`hugo --minify` in CI) are unchanged.
+
 Production build:
 
 ```bash

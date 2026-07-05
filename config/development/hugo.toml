@@ -1,0 +1,9 @@
+# Merged automatically when running `hugo server` (development environment).
+# Production builds (`hugo --minify` in CI) use the root hugo.toml only.
+
+[params]
+  env = "development"
+
+[privacy]
+  [privacy.googleAnalytics]
+    disable = true
