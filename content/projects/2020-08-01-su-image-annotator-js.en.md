@@ -12,4 +12,4 @@ ImageAnnotatorJS is a modular JavaScript library (AMD) for building web-based im
 
 The library exposes a robust vector-layer and annotation-management API through a straightforward interface, enabling researchers and developers to annotate images efficiently across biomedical research, machine learning, and computer vision workflows. We released it to the research community to advance image-analysis tooling and encourage collaboration and data sharing.
 
-**Fun fact:** This library was plagiarized and repackaged for sale on CSDN. See: [https://download.csdn.net/download/weixin_42171208/19073653](https://download.csdn.net/download/weixin_42171208/19073653)
+**Fun fact:** Perhaps to champion the spirit of "integrity," someone uploaded this codebase as a paid download on CSDN to pocket the proceeds 😅. See: [https://download.csdn.net/download/weixin_42171208/19073653](https://download.csdn.net/download/weixin_42171208/19073653)
