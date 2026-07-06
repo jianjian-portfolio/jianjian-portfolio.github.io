@@ -28,7 +28,7 @@ The engine formulates provisioning and scheduling on the platform as a **Markov 
 <div class="diagram-placeholder">
 <span class="diagram-title">[Figure 1: High-Frequency DRL Decision Loop]</span>
 <div class="diagram-svg-container diagram-svg-container--drl-loop">
-<svg width="100%" height="100%" viewBox="0 0 725 162" role="img" aria-label="High-frequency DRL decision loop">
+<svg width="100%" height="100%" viewBox="0 0 740 162" role="img" aria-label="High-frequency DRL decision loop">
 <defs>
 <marker id="drl-f1-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
 <path d="M 0 0 L 10 5 L 0 10 z" fill="var(--diagram-accent)"/>

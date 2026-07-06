@@ -749,8 +749,9 @@
 
 /* DRL loop diagram: static edges layer + wider box spacing for hover scale */
 .diagram-svg-container--drl-loop svg {
-  max-width: min(100%, 725px);
+  max-width: min(100%, 740px);
 }
+
 
 .diagram-svg-container--drl-loop .diagram-edges {
   pointer-events: none;
