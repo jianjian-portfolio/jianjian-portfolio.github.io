@@ -8,4 +8,3 @@ featured: false
 
 
 In my role as an on-site support specialist, I maintained the business OA system for an insurance company. I was responsible for troubleshooting and fixing frontend bugs using JavaScript, as well as deploying new server stations for the helpdesk. Additionally, I organized the hardware network for conferences and other events.
- 

@@ -1,99 +1,77 @@
 {{- $desc := .Description | default .Summary | default site.Params.description | plainify | htmlUnescape | truncate 160 }}
 {{- $pageURL := .Permalink | absURL }}
 {{- $homeEN := site.GetPage "/" }}
+
 {{- if hugo.IsMultilingual }}
-  {{- if .IsTranslated }}
-    {{- range .AllTranslations }}
-<link rel="alternate" hreflang="{{ .Language.LanguageCode | default .Language.Lang }}" href="{{ .Permalink | absURL }}">
-    {{- end }}
-<link rel="alternate" hreflang="x-default" href="{{ $homeEN.Permalink | absURL }}">
+  {{- range .AllTranslations }}
+<link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink | absURL }}">
   {{- end }}
+<link rel="alternate" hreflang="x-default" href="{{ $homeEN.Permalink | absURL }}">
 {{- end }}
 
 {{- if .IsHome }}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ProfilePage",
-  "name": {{ .Title | jsonify }},
-  "description": {{ $desc | jsonify }},
-  "url": {{ $pageURL | jsonify }},
-  "inLanguage": {{ .Language.Lang | jsonify }},
+  {{- $person := dict
+    "@type" "Person"
+    "name" "Jian Jian"
+    "jobTitle" "Staff Applied Scientist"
+    "worksFor" (dict "@type" "Organization" "name" "NetApp")
+    "url" ($homeEN.Permalink | absURL)
+    "sameAs" (slice "https://github.com/UKGANG" "https://www.linkedin.com/in/jian-jian/")
+  }}
+  {{- $schema := dict
+    "@context" "https://schema.org"
+    "@type" "ProfilePage"
+    "name" .Title
+    "description" $desc
+    "url" $pageURL
+    "inLanguage" .Language.Lang
+    "mainEntity" $person
+  }}
   {{- if not .Lastmod.IsZero }}
-  "dateModified": {{ .Lastmod.Format "2006-01-02" | jsonify }},
+    {{- $schema = merge $schema (dict "dateModified" (.Lastmod.Format "2006-01-02")) }}
   {{- end }}
-  "mainEntity": {
-    "@type": "Person",
-    "name": "Jian Jian",
-    "jobTitle": "Staff Applied Scientist",
-    "worksFor": {
-      "@type": "Organization",
-      "name": "NetApp"
-    },
-    "url": {{ ($homeEN.Permalink | absURL) | jsonify }},
-    "sameAs": [
-      "https://github.com/UKGANG",
-      "https://www.linkedin.com/in/jian-jian/"
-    ]
-  }
-}
-</script>
+<script type="application/ld+json">{{ $schema | jsonify }}</script>
 {{- else if and (eq .Section "projects") (eq .Kind "section") }}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "CollectionPage",
-  "name": {{ .Title | jsonify }},
-  "description": {{ $desc | jsonify }},
-  "url": {{ $pageURL | jsonify }},
-  "inLanguage": {{ .Language.Lang | jsonify }},
+  {{- $schema := dict
+    "@context" "https://schema.org"
+    "@type" "CollectionPage"
+    "name" .Title
+    "description" $desc
+    "url" $pageURL
+    "inLanguage" .Language.Lang
+    "author" (dict "@type" "Person" "name" "Jian Jian" "url" ($homeEN.Permalink | absURL))
+  }}
   {{- if not .Lastmod.IsZero }}
-  "dateModified": {{ .Lastmod.Format "2006-01-02" | jsonify }},
+    {{- $schema = merge $schema (dict "dateModified" (.Lastmod.Format "2006-01-02")) }}
   {{- end }}
-  "author": {
-    "@type": "Person",
-    "name": "Jian Jian",
-    "url": {{ ($homeEN.Permalink | absURL) | jsonify }}
-  }
-}
-</script>
+<script type="application/ld+json">{{ $schema | jsonify }}</script>
 {{- else if eq .Section "projects" }}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "CreativeWork",
-  "name": {{ .Title | jsonify }},
-  "description": {{ $desc | jsonify }},
-  "url": {{ $pageURL | jsonify }},
-  "inLanguage": {{ .Language.Lang | jsonify }},
-  "datePublished": {{ .Date.Format "2006-01-02" | jsonify }},
+  {{- $schema := dict
+    "@context" "https://schema.org"
+    "@type" "CreativeWork"
+    "name" .Title
+    "description" $desc
+    "url" $pageURL
+    "inLanguage" .Language.Lang
+    "datePublished" (.Date.Format "2006-01-02")
+    "author" (dict "@type" "Person" "name" "Jian Jian" "url" ($homeEN.Permalink | absURL))
+  }}
   {{- if not .Lastmod.IsZero }}
-  "dateModified": {{ .Lastmod.Format "2006-01-02" | jsonify }},
+    {{- $schema = merge $schema (dict "dateModified" (.Lastmod.Format "2006-01-02")) }}
   {{- end }}
-  "author": {
-    "@type": "Person",
-    "name": "Jian Jian",
-    "url": {{ ($homeEN.Permalink | absURL) | jsonify }}
-  }
-}
-</script>
+<script type="application/ld+json">{{ $schema | jsonify }}</script>
 {{- else if in .RelPermalink "/timeline/" }}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "CollectionPage",
-  "name": {{ .Title | jsonify }},
-  "description": {{ $desc | jsonify }},
-  "url": {{ $pageURL | jsonify }},
-  "inLanguage": {{ .Language.Lang | jsonify }},
+  {{- $schema := dict
+    "@context" "https://schema.org"
+    "@type" "CollectionPage"
+    "name" .Title
+    "description" $desc
+    "url" $pageURL
+    "inLanguage" .Language.Lang
+    "author" (dict "@type" "Person" "name" "Jian Jian" "url" ($homeEN.Permalink | absURL))
+  }}
   {{- if not .Lastmod.IsZero }}
-  "dateModified": {{ .Lastmod.Format "2006-01-02" | jsonify }},
+    {{- $schema = merge $schema (dict "dateModified" (.Lastmod.Format "2006-01-02")) }}
   {{- end }}
-  "author": {
-    "@type": "Person",
-    "name": "Jian Jian",
-    "url": {{ ($homeEN.Permalink | absURL) | jsonify }}
-  }
-}
-</script>
+<script type="application/ld+json">{{ $schema | jsonify }}</script>
 {{- end }}

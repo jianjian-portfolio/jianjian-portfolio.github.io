@@ -1,7 +1,7 @@
 baseURL = "https://jianjian-portfolio.github.io/"
 title = "Jian Jian | Portfolio"
 theme = "PaperMod"
-languageCode = "en-us"
+languageCode = "en"
 enableRobotsTXT = false
 
 defaultContentLanguage = "en"
@@ -41,7 +41,7 @@ outputs = ["HTML", "RSS", "JSON"]
 
 [languages]
   [languages.en]
-    languageCode = "en-us"
+    languageCode = "en"
     locale = "en-us"
     label = "EN"
     weight = 1
@@ -75,7 +75,7 @@ outputs = ["HTML", "RSS", "JSON"]
         weight = 30
 
   [languages.zh]
-    languageCode = "zh-cn"
+    languageCode = "zh"
     locale = "zh-cn"
     label = "简"
     weight = 2
