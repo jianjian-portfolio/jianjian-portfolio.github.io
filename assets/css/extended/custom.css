@@ -879,7 +879,13 @@
 }
 
 .diagram-svg-container--deepcell-pipeline .interactive-group > rect[stroke-dasharray] {
+  fill: var(--entry);
   pointer-events: all;
+}
+
+.diagram-svg-container--deepcell-pipeline .deepcell-dashed-box:hover {
+  /* 268x40 box: grow ~2px per edge (uniform absolute expansion) */
+  transform: scale(1.025, 1.1);
 }
 
 .diagram-svg-container--deepcell-pipeline + .diagram-caption {
@@ -899,7 +905,13 @@
 }
 
 .diagram-svg-container--deepcell-train .interactive-group > rect[stroke-dasharray] {
+  fill: var(--entry);
   pointer-events: all;
+}
+
+.diagram-svg-container--deepcell-train .deepcell-dashed-box:hover {
+  /* 184x40 box: grow ~2px per edge (matches pipeline box) */
+  transform: scale(1.035, 1.1);
 }
 
 .diagram-svg-container--deepcell-train + .diagram-caption {
