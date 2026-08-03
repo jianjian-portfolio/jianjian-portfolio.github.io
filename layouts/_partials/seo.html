@@ -28,7 +28,7 @@
     "mainEntity" $person
   }}
   {{- if not .Lastmod.IsZero }}
-    {{- $schema = merge $schema (dict "dateModified" (.Lastmod.Format "2006-01-02")) }}
+    {{- $schema = merge $schema (dict "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00")) }}
   {{- end }}
   {{- printf `<script type="application/ld+json">%s</script>` ($schema | jsonify) | safeHTML }}
 {{- else if and (eq .Section "projects") (eq .Kind "section") }}
@@ -42,7 +42,7 @@
     "author" (dict "@type" "Person" "name" "Jian Jian" "url" ($homeEN.Permalink | absURL))
   }}
   {{- if not .Lastmod.IsZero }}
-    {{- $schema = merge $schema (dict "dateModified" (.Lastmod.Format "2006-01-02")) }}
+    {{- $schema = merge $schema (dict "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00")) }}
   {{- end }}
   {{- printf `<script type="application/ld+json">%s</script>` ($schema | jsonify) | safeHTML }}
 {{- else if eq .Section "projects" }}
@@ -53,11 +53,11 @@
     "description" $desc
     "url" $pageURL
     "inLanguage" .Language.Lang
-    "datePublished" (.Date.Format "2006-01-02")
+    "datePublished" (.Date.Format "2006-01-02T15:04:05Z07:00")
     "author" (dict "@type" "Person" "name" "Jian Jian" "url" ($homeEN.Permalink | absURL))
   }}
   {{- if not .Lastmod.IsZero }}
-    {{- $schema = merge $schema (dict "dateModified" (.Lastmod.Format "2006-01-02")) }}
+    {{- $schema = merge $schema (dict "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00")) }}
   {{- end }}
   {{- printf `<script type="application/ld+json">%s</script>` ($schema | jsonify) | safeHTML }}
 {{- else if in .RelPermalink "/timeline/" }}
@@ -71,7 +71,7 @@
     "author" (dict "@type" "Person" "name" "Jian Jian" "url" ($homeEN.Permalink | absURL))
   }}
   {{- if not .Lastmod.IsZero }}
-    {{- $schema = merge $schema (dict "dateModified" (.Lastmod.Format "2006-01-02")) }}
+    {{- $schema = merge $schema (dict "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00")) }}
   {{- end }}
   {{- printf `<script type="application/ld+json">%s</script>` ($schema | jsonify) | safeHTML }}
 {{- end }}
