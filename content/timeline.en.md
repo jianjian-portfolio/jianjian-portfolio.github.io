@@ -126,13 +126,13 @@ Applied AI is my daily work. Still, some of what matters most in that work depen
 <div class="career-path-item">
 <div class="career-path-header">
 <span class="career-path-month">Jul</span>
-<h3 class="career-path-title">Transition to AI: Stanford CPD Data Science</h3>
+<h3 class="career-path-title">Transition to AI: Stanford SCPD Data Science</h3>
 </div>
-<p class="career-path-desc">In 2019, completed a career pivot to machine learning and data science, finishing the Stanford Center for Professional Development (Stanford CPD) data science curriculum and bridging statistical research with large-scale engineering deployment.</p>
+<p class="career-path-desc">In 2019, completed a career pivot to machine learning and data science, finishing the Stanford Center for Professional Development (Stanford SCPD) data science curriculum and bridging statistical research with large-scale engineering deployment.</p>
 <details class="premium-details">
 <summary class="premium-summary"><span>🔍 Expand to View</span></summary>
 <div class="premium-content">
-<img src="/assets/images/certificates/Data science-Stanford.jpg" alt="Stanford CPD Data Science Certificate" />
+<img src="/assets/images/certificates/Data science-Stanford.jpg" alt="Stanford SCPD Data Science Certificate" />
 </div>
 </details>
 </div>
@@ -243,10 +243,10 @@ Applied AI is my daily work. Still, some of what matters most in that work depen
 <span class="credential-spotlight-title">M.S. Applied Data Science (GPA 4.0)</span>
 <span class="credential-spotlight-org">Syracuse University</span>
 </button>
-<button type="button" class="credential-spotlight-card" data-cert-full="/assets/images/certificates/Data science-Stanford.jpg" data-cert-alt="Stanford CPD Certificate">
+<button type="button" class="credential-spotlight-card" data-cert-full="/assets/images/certificates/Data science-Stanford.jpg" data-cert-alt="Stanford SCPD Certificate">
 <img class="credential-spotlight-thumb" src="/assets/images/certificates/Data science-Stanford.jpg" alt="" loading="lazy" />
 <span class="credential-spotlight-title">Foundational Data Science</span>
-<span class="credential-spotlight-org">Stanford University CPD</span>
+<span class="credential-spotlight-org">Stanford SCPD</span>
 </button>
 <button type="button" class="credential-spotlight-card" data-cert-full="/assets/images/certificates/MIT xPRO _ Certificate for_ Quantum Computing Fundamentals.png" data-cert-alt="MIT xPRO Quantum Computing Fundamentals">
 <img class="credential-spotlight-thumb" src="/assets/images/certificates/MIT xPRO _ Certificate for_ Quantum Computing Fundamentals.png" alt="" loading="lazy" />
@@ -275,9 +275,9 @@ Applied AI is my daily work. Still, some of what matters most in that work depen
 </div>
 </details>
 <details class="premium-details">
-<summary class="premium-summary"><span>Foundational Data Science - Stanford University CPD</span></summary>
+<summary class="premium-summary"><span>Foundational Data Science - Stanford SCPD</span></summary>
 <div class="premium-content">
-<img class="cert-expandable-img" src="/assets/images/certificates/Data science-Stanford.jpg" alt="Stanford CPD Certificate" title="Click to view full size" />
+<img class="cert-expandable-img" src="/assets/images/certificates/Data science-Stanford.jpg" alt="Stanford SCPD Certificate" title="Click to view full size" />
 </div>
 </details>
 <details class="premium-details">

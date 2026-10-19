@@ -126,13 +126,13 @@ aliases:
 <div class="career-path-item">
 <div class="career-path-header">
 <span class="career-path-month">7月</span>
-<h3 class="career-path-title">转向人工智能：斯坦福大学 CPD 数据科学</h3>
+<h3 class="career-path-title">转向人工智能：斯坦福大学 SCPD 数据科学</h3>
 </div>
-<p class="career-path-desc">2019 年完成向机器学习与数据科学的职业转型，修完斯坦福大学专业发展中心（Stanford CPD）数据科学课程体系，衔接统计学研究与大规模工程落地。</p>
+<p class="career-path-desc">2019 年完成向机器学习与数据科学的职业转型，修完斯坦福大学专业发展中心（Stanford SCPD）数据科学课程体系，衔接统计学研究与大规模工程落地。</p>
 <details class="premium-details">
 <summary class="premium-summary"><span>🔍 点击展开</span></summary>
 <div class="premium-content">
-<img src="/assets/images/certificates/Data science-Stanford.jpg" alt="斯坦福 CPD 数据科学证书" />
+<img src="/assets/images/certificates/Data science-Stanford.jpg" alt="斯坦福 SCPD 数据科学证书" />
 </div>
 </details>
 </div>
@@ -243,10 +243,10 @@ aliases:
 <span class="credential-spotlight-title">应用数据科学硕士 (GPA 4.0)</span>
 <span class="credential-spotlight-org">雪城大学</span>
 </button>
-<button type="button" class="credential-spotlight-card" data-cert-full="/assets/images/certificates/Data science-Stanford.jpg" data-cert-alt="斯坦福 CPD 证书原件">
+<button type="button" class="credential-spotlight-card" data-cert-full="/assets/images/certificates/Data science-Stanford.jpg" data-cert-alt="斯坦福 SCPD 证书原件">
 <img class="credential-spotlight-thumb" src="/assets/images/certificates/Data science-Stanford.jpg" alt="" loading="lazy" />
 <span class="credential-spotlight-title">数据科学基础</span>
-<span class="credential-spotlight-org">斯坦福大学 CPD</span>
+<span class="credential-spotlight-org">斯坦福大学 SCPD</span>
 </button>
 <button type="button" class="credential-spotlight-card" data-cert-full="/assets/images/certificates/MIT xPRO _ Certificate for_ Quantum Computing Fundamentals.png" data-cert-alt="MIT xPRO 量子基础证书">
 <img class="credential-spotlight-thumb" src="/assets/images/certificates/MIT xPRO _ Certificate for_ Quantum Computing Fundamentals.png" alt="" loading="lazy" />
@@ -275,9 +275,9 @@ aliases:
 </div>
 </details>
 <details class="premium-details">
-<summary class="premium-summary"><span>数据科学基础证书 - 斯坦福大学 CPD</span></summary>
+<summary class="premium-summary"><span>数据科学基础证书 - 斯坦福大学 SCPD</span></summary>
 <div class="premium-content">
-<img class="cert-expandable-img" src="/assets/images/certificates/Data science-Stanford.jpg" alt="斯坦福 CPD 证书原件" title="点击查看大图" />
+<img class="cert-expandable-img" src="/assets/images/certificates/Data science-Stanford.jpg" alt="斯坦福 SCPD 证书原件" title="点击查看大图" />
 </div>
 </details>
 <details class="premium-details">
