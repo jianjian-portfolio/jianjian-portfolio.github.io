@@ -14,7 +14,7 @@ hideMeta: true
 
 目前，我在 NetApp 带着一支 AI & ML 研发团队，致力于把最前沿的 AI 研究真正做进企业级系统里。在此之前，我曾是 DeepCell 的数据科学家（Data Scientist），负责深度学习模型的开发与落地。我的科研经历包括在 Daniel Acuña 教授的 [Science of Science & Computational Discovery Lab](https://scienceofscience.org/)（雪城大学 iSchool，2020–2021年）担任研究员。期间，我们合作撰写了发表于 Nature 子刊的[科学资源寿命预测论文](https://www.nature.com/articles/s41599-025-04716-z)，将严谨的统计建模与海量元数据挖掘融合在了一起。
 
-这种"数学直觉"与底层系统工程（C++、Java）的双重背景，使我能贯通机器学习生命周期的关键环节——从自定义数学算法，到基于 GPU/TPU、PyTorch、TensorFlow、TensorRT 与 ONNX 的高吞吐推理部署。关于我 17 年来从传统系统开发逐步转向应用 AI 研究的完整职业历程，欢迎在 [职业历程](/zh/timeline/) 页面中查看。在应对这种跨界转型时，通往最终的目的地就像一趟长途旅程，但旅途本身就像行驶在深夜的公路上——目之所及，始终只是眼前这一段路。所以我一直信奉"活在当下"，与其为看不清的远景焦虑，不如沉下心来，把当下的每一步走扎实；更远的风景，往往会在前行中渐次展开。
+这种"数学直觉"与底层系统工程（C++、Java）的双重背景，使我能贯通机器学习生命周期的关键环节——从自定义数学算法，到基于 GPU/TPU、PyTorch、TensorFlow、TensorRT 与 ONNX 的高吞吐推理部署。关于我 17 年来从传统系统开发逐步转向应用 AI 研究的完整职业历程，欢迎在 [职业历程](/zh/timeline/) 页面中查看。在应对这种跨界转型时，通往最终的目的地就像一趟长途旅程，但旅途本身就像行驶在深夜的公路上——目之所及，始终只是眼前这一段路。所以我一直信奉"活在当下"，与其为看不清的远景焦虑，不如沉下心来，把当下的每一步走扎实；更远的风景，往往会在前行中渐次展开。（[雪城大学 iSchool 校友专访](https://ischool.syracuse.edu/data-scientist-trying-to-change-the-world-through-innovation/)，2024）
 
 ---
 
